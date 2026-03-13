@@ -32,7 +32,7 @@ def submit_answer(name: str, surname: str, access_level: int, power_plant_code: 
 
 
 # --- Config ---
-load_dotenv('./zadania/Z0102/.config')
+load_dotenv('./zadania/.config')
 HUB_APIKEY = os.getenv("APIKEY")
 LLM_APIKEY = os.getenv("LLM_APIKEY")
 LLM_MODEL = "openai/gpt-5-mini"
