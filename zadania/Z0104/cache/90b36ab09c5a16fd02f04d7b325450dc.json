@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+    {
+      "type": "function",
+      "index": 0,
+      "id": "call_MGnphlUOnDEU45hAVdaDlvX0",
+      "function": {
+        "name": "read_doc",
+        "arguments": "{\"filename\": \"zalacznik-E.md\"}"
+      }
+    },
+    {
+      "type": "function",
+      "index": 1,
+      "id": "call_BNqiKW7g1ENOxRGm4hwSvq8m",
+      "function": {
+        "name": "get_image_path",
+        "arguments": "{\"filename\": \"trasy-wylaczone.png\"}"
+      }
+    }
+  ]
+}

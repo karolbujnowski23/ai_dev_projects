@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+    {
+      "type": "function",
+      "index": 0,
+      "id": "call_V3teQuRIQCDZ87fjTaKMshGP",
+      "function": {
+        "name": "list_docs",
+        "arguments": "{}"
+      }
+    },
+    {
+      "type": "function",
+      "index": 1,
+      "id": "call_jvZUXllj8YpRJf7DvojKC7q8",
+      "function": {
+        "name": "get_image_path",
+        "arguments": "{\"filename\": \"mapa.png\"}"
+      }
+    }
+  ]
+}

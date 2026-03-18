@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+    {
+      "type": "function",
+      "index": 0,
+      "id": "call_ZMHpdOflbic4ncvcPmC2dfFB",
+      "function": {
+        "name": "vision_analyze",
+        "arguments": "{\"image_path\":\"c:\\\\Users\\\\buyak\\\\Documents\\\\AI_devs\\\\zadania\\\\Z0104\\\\docs\\\\trasy-wylaczone.png\",\"prompt\":\"Ustal kod trasy Gdańsk - Żarnowiec oraz czy jest aktywna czy wyłączona.\"}"
+      }
+    }
+  ]
+}

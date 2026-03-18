@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+    {
+      "type": "function",
+      "index": 0,
+      "id": "call_6BIvW1dkuCrHVqF9Wl6S9xXC",
+      "function": {
+        "name": "read_doc",
+        "arguments": "{\"filename\": \"zalacznik-E.md\"}"
+      }
+    },
+    {
+      "type": "function",
+      "index": 1,
+      "id": "call_rpNH9edV73SdEJX1y0lkFdCH",
+      "function": {
+        "name": "vision_analyze",
+        "arguments": "{\"image_path\": \"c:\\\\Users\\\\buyak\\\\Documents\\\\AI_devs\\\\zadania\\\\Z0104\\\\docs\\\\mapa.png\", \"prompt\": \"Identify the route code for the path from Gdańsk to Żarnowiec\"}"
+      }
+    }
+  ]
+}

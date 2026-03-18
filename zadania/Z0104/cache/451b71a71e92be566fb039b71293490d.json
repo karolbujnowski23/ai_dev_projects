@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": "Kod trasy Gdańsk - Żarnowiec to X-01 i jest ona wyłączona z użytku, zgodnie z Dyrektywą Specjalną 7.7.\n\nDla kategorii przesyłki w kontekście darmowego transportu:\n- Ze względu na to, że trasa X-01 do Żarnowca jest wyłączona, jedynymi kategoriami przesyłek niepodlegającymi opłat (0 PP) dla tego przypadku są **kategoria A (Strategiczna)** lub **kategoria B (Medyczna)**.\n\nPrzesyłka zawiera kasety z paliwem do reaktora, co klasyfikuje ją jako przesyłkę strategiczną (kategoria A).\n\nTeraz wypełnię deklarację i prześlę do weryfikacji.",
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+    {
+      "type": "function",
+      "index": 0,
+      "id": "call_ETzhNCQHgyigmFoulDG5PVdf",
+      "function": {
+        "name": "submit_declaration",
+        "arguments": "{\"declaration\":\"SYSTEM PRZESYŁEK KONDUKTORSKICH - DEKLARACJA ZAWARTOŚCI\\n======================================================\\nDATA: [YYYY-MM-DD]\\nPUNKT NADAWCZY: Gdańsk\\n------------------------------------------------------\\nNADAWCA: 450202122\\nPUNKT DOCELOWY: Żarnowiec\\nTRASA: X-01\\n------------------------------------------------------\\nKATEGORIA PRZESYŁKI: A\\n------------------------------------------------------\\nOPIS ZAWARTOŚCI (max 200 znaków): Kasety z paliwem do reaktora\\n------------------------------------------------------\\nDEKLAROWANA MASA (kg): 2800\\n------------------------------------------------------\\nWDP: 0\\n------------------------------------------------------\\nUWAGI SPECJALNE: brak\\n------------------------------------------------------\\nKWOTA DO ZAPŁATY: 0 PP\\n------------------------------------------------------\\nOŚWIADCZAM, ŻE PODANE INFORMACJE SĄ PRAWDZIWE.\\nBIORĘ NA SIEBIE KONSEKWENCJĘ ZA FAŁSZYWE OŚWIADCZENIE.\\n======================================================\"}"
+      }
+    }
+  ]
+}
