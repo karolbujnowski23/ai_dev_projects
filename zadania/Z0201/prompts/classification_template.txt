@@ -1,0 +1,6 @@
+Classify ID as DNG/NEU.
+Rules:
+1. Reactor parts (uranium, plutonium, control rods, cassette) -> NEU.
+2. Dangerous/Weapons -> DNG.
+3. Normal -> NEU.
+Return ONLY DNG or NEU.
