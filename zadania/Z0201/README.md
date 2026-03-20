@@ -10,19 +10,19 @@ Projekt implementuje architekturę serwera MCP (Model Context Protocol) przeznac
 graph TD
     %% Zewnętrzne serwisy
     Hub[Centralny Hub Danych i Weryfikacji]
-    LLM[Zewnętrzny Model LLM<br/>OpenRouter / Claude 3.5 Sonnet]
+    LLM["Zewnętrzny Model LLM<br/>OpenRouter / Claude 3.5 Sonnet"]
 
     %% Główny przepływ (App)
-    App[app.py<br/>Główny Orkiestrator]
+    App["app.py<br/>Główny Orkiestrator"]
 
     %% Komponenty
-    Downloader(Moduł Pobierania Danych<br/>downloader.py)
-    Client(Pętla Wykonawcza<br/>client.py)
-    Tokenizer(Walidator Limitów<br/>tokenizer.py)
-    Template((Szablon Promptu<br/>classification_template.txt))
-    Budget(Monitor Stanu i Budżetu<br/>budget_manager.py)
-    Analyzer(Analizator Błędów<br/>feedback_analyzer.py)
-    Orchestrator(Agent "Prompt Engineer<br>orchestrator.py")
+    Downloader("Moduł Pobierania Danych<br/>downloader.py")
+    Client("Pętla Wykonawcza<br/>client.py")
+    Tokenizer("Walidator Limitów<br/>tokenizer.py")
+    Template(("Szablon Promptu<br/>classification_template.txt"))
+    Budget("Monitor Stanu i Budżetu<br/>budget_manager.py")
+    Analyzer("Analizator Błędów<br/>feedback_analyzer.py")
+    Orchestrator("Agent 'Prompt Engineer'<br/>orchestrator.py")
 
     %% Relacje
     App -->|1. Inicjuje pobieranie| Downloader
