@@ -25,31 +25,31 @@ graph TD
     Orchestrator("Agent 'Prompt Engineer'<br/>orchestrator.py")
 
     %% Relacje
-    App -->|1. Inicjuje pobieranie| Downloader
-    Downloader -->|Pobiera CSV| Hub
-    Downloader -.->|Zwraca najnowsze dane| App
+    App -->|"1. Inicjuje pobieranie"| Downloader
+    Downloader -->|"Pobiera CSV"| Hub
+    Downloader -.->|"Zwraca najnowsze dane"| App
 
-    App -->|2. Przekazuje dane| Client
-    Template -.->|Wczytanie statycznej bazy| Client
-    Client <-->|Weryfikuje rozmiar promptu| Tokenizer
+    App -->|"2. Przekazuje dane"| Client
+    Template -.->|"Wczytanie statycznej bazy"| Client
+    Client <-->|"Weryfikuje rozmiar promptu"| Tokenizer
     
-    Client -->|3. Wysyła prompt (Cache Hit)| LLM
-    LLM -.->|Zwraca klasyfikację| Client
+    Client -->|"3. Wysyła prompt (Cache Hit)"| LLM
+    LLM -.->|"Zwraca klasyfikację"| Client
     
-    Client -->|4. Zgłasza klasyfikację| Hub
-    Hub -.->|Zwraca wyniki weryfikacji| Client
+    Client -->|"4. Zgłasza klasyfikację"| Hub
+    Hub -.->|"Zwraca wyniki weryfikacji"| Client
     
-    Client -->|Raportuje zużycie PP| Budget
-    Client -.->|Przekazuje odpowiedzi huba| App
+    Client -->|"Raportuje zużycie PP"| Budget
+    Client -.->|"Przekazuje odpowiedzi huba"| App
     
-    App -->|5. Analizuje wyniki| Analyzer
-    Analyzer -.->|Generuje Feedback| Orchestrator
+    App -->|"5. Analizuje wyniki"| Analyzer
+    Analyzer -.->|"Generuje Feedback"| Orchestrator
     
-    Orchestrator -->|6. Żąda ulepszenia promptu| LLM
-    LLM -.->|Zwraca lepszy prompt| Orchestrator
-    Orchestrator -->|Aktualizuje i nadpisuje| Template
+    Orchestrator -->|"6. Żąda ulepszenia promptu"| LLM
+    LLM -.->|"Zwraca lepszy prompt"| Orchestrator
+    Orchestrator -->|"Aktualizuje i nadpisuje"| Template
     
-    Budget -.->|Przekroczenie budżetu / Reset| App
+    Budget -.->|"Przekroczenie budżetu / Reset"| App
 ```
 
 > *(Powyższy schemat można wyrenderować używając rozszerzeń obsługujących format **Mermaid**, np. na GitHubie lub w VS Code.)*
