@@ -22,7 +22,7 @@ graph TD
     Template((Szablon Promptu<br/>classification_template.txt))
     Budget(Monitor Stanu i Budżetu<br/>budget_manager.py)
     Analyzer(Analizator Błędów<br/>feedback_analyzer.py)
-    Orchestrator(Agent "Prompt Engineer"<br/>orchestrator.py)
+    Orchestrator(Agent "Prompt Engineer<br>orchestrator.py")
 
     %% Relacje
     App -->|1. Inicjuje pobieranie| Downloader
