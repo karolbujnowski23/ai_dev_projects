@@ -1,0 +1,90 @@
+PS C:\Users\buyak\Documents\AI_devs\zadania\Z0202> .venv/Scripts/python app.py
+2026-03-20 21:37:20,713 - mcp-template - INFO - Starting Z0202 Electricity Agent...
+2026-03-20 21:37:20,715 - mcp-template - INFO - [ElectricityAgent] Rozpoczynam zadanie: electricity
+2026-03-20 21:37:20,716 - mcp-template - INFO - Resetuję planszę do stanu początkowego...       
+2026-03-20 21:37:23,578 - mcp-template - INFO - Pobieranie i analiza obrazu z: https://hub.ag3nts.org/data/aef1bda3-8909-428e-986e-1042b1a197c7/electricity.png
+2026-03-20 21:37:23,579 - mcp-template - INFO - --- Próba 1/3 ---
+2026-03-20 21:38:00,244 - mcp-template - INFO - Rozpoznany stan: {'1x1': [], '1x2': ['bottom', 'left'], '1x3': ['left'], '2x1': ['top', 'bottom'], '2x2': ['bottom', 'left', 'right'], '2x3': ['right', 'bottom'], '3x1': ['right'], '3x2': ['top', 'left', 'right'], '3x3': ['left', 'top']}   
+Brak dopasowania dla 1x2. Docelowo: ['left', 'right', 'bottom'], Obecnie: ['bottom', 'left']    
+Brak dopasowania dla 1x3. Docelowo: ['left', 'right'], Obecnie: ['left']
+Brak dopasowania dla 2x3. Docelowo: ['left', 'right', 'bottom'], Obecnie: ['right', 'bottom']   
+Brak dopasowania dla 3x1. Docelowo: ['left', 'right', 'top'], Obecnie: ['right']
+Brak dopasowania dla 3x2. Docelowo: ['left', 'top'], Obecnie: ['top', 'left', 'right']
+2026-03-20 21:38:00,246 - mcp-template - INFO - Wymagane rotacje (o 90 st. w prawo): {'1x1': 0, '1x2': 0, '1x3': 0, '2x1': 0, '2x2': 3, '2x3': 0, '3x1': 0, '3x2': 0, '3x3': 1}
+2026-03-20 21:38:00,246 - mcp-template - INFO - Obracam kafelek: 2x2
+2026-03-20 21:38:01,365 - mcp-template - INFO - Obracam kafelek: 2x2
+2026-03-20 21:38:02,471 - mcp-template - INFO - Obracam kafelek: 2x2
+2026-03-20 21:38:03,571 - mcp-template - INFO - Obracam kafelek: 3x3
+2026-03-20 21:38:04,625 - mcp-template - INFO - Flaga nie została zwrócona po wykonaniu zaplanowanych obrotów. Aktualizacja i ponowna weryfikacja.
+2026-03-20 21:38:06,625 - mcp-template - INFO - --- Próba 2/3 ---
+2026-03-20 21:38:52,550 - mcp-template - INFO - Rozpoznany stan: {'1x1': ['right'], '1x2': ['left', 'right'], '1x3': ['left', 'right'], '2x1': ['right'], '2x2': ['top', 'bottom', 'left', 'right'], '2x3': ['left', 'bottom'], '3x1': ['right'], '3x2': ['top', 'bottom', 'left', 'right'], '3x3': ['left', 'right']}
+Brak dopasowania dla 1x1. Docelowo: ['right', 'bottom'], Obecnie: ['right']
+Brak dopasowania dla 1x2. Docelowo: ['left', 'right', 'bottom'], Obecnie: ['left', 'right']
+Brak dopasowania dla 2x1. Docelowo: ['top', 'bottom'], Obecnie: ['right']
+Brak dopasowania dla 2x2. Docelowo: ['top', 'bottom', 'right'], Obecnie: ['top', 'bottom', 'left', 'right']
+Brak dopasowania dla 2x3. Docelowo: ['left', 'right', 'bottom'], Obecnie: ['left', 'bottom']
+Brak dopasowania dla 3x1. Docelowo: ['left', 'right', 'top'], Obecnie: ['right']
+Brak dopasowania dla 3x2. Docelowo: ['left', 'top'], Obecnie: ['top', 'bottom', 'left', 'right']
+Brak dopasowania dla 3x3. Docelowo: ['top', 'right'], Obecnie: ['left', 'right']
+2026-03-20 21:38:52,551 - mcp-template - INFO - Wymagane rotacje (o 90 st. w prawo): {'1x1': 0, '1x2': 0, '1x3': 0, '2x1': 0, '2x2': 0, '2x3': 0, '3x1': 0, '3x2': 0, '3x3': 0}
+2026-03-20 21:38:52,551 - mcp-template - INFO - Z żadnych rotacji nie wynika, że coś trzeba zmienić. Czyżby rozwiązane, lub AI nie złapało detalu?
+2026-03-20 21:38:52,552 - mcp-template - INFO - Flaga nie została zwrócona po wykonaniu zaplanowanych obrotów. Aktualizacja i ponowna weryfikacja.
+2026-03-20 21:38:54,552 - mcp-template - INFO - --- Próba 3/3 ---
+2026-03-20 21:39:38,380 - mcp-template - INFO - Rozpoznany stan: {'1x1': ['left', 'bottom'], '1x2': ['bottom', 'right'], '1x3': ['left', 'right'], '2x1': ['bottom', 'right'], '2x2': ['left', 'right', 'bottom'], '2x3': [], '3x1': ['right'], '3x2': ['top', 'left', 'right'], '3x3': []}
+Brak dopasowania dla 1x2. Docelowo: ['left', 'right', 'bottom'], Obecnie: ['bottom', 'right']
+Brak dopasowania dla 2x1. Docelowo: ['top', 'bottom'], Obecnie: ['bottom', 'right']
+Brak dopasowania dla 3x1. Docelowo: ['left', 'right', 'top'], Obecnie: ['right']
+Brak dopasowania dla 3x2. Docelowo: ['left', 'top'], Obecnie: ['top', 'left', 'right']
+Brak dopasowania dla 1x2. Docelowo: ['left', 'right', 'bottom'], Obecnie: ['left', 'right']     
+Brak dopasowania dla 2x1. Docelowo: ['top', 'bottom'], Obecnie: ['right']
+Brak dopasowania dla 2x2. Docelowo: ['top', 'bottom', 'right'], Obecnie: ['top', 'bottom', 'left', 'right']
+Brak dopasowania dla 2x3. Docelowo: ['left', 'right', 'bottom'], Obecnie: ['left', 'bottom']    
+Brak dopasowania dla 3x1. Docelowo: ['left', 'right', 'top'], Obecnie: ['right']
+Brak dopasowania dla 3x2. Docelowo: ['left', 'top'], Obecnie: ['top', 'bottom', 'left', 'right']
+Brak dopasowania dla 3x3. Docelowo: ['top', 'right'], Obecnie: ['left', 'right']
+2026-03-20 21:38:52,551 - mcp-template - INFO - Wymagane rotacje (o 90 st. w prawo): {'1x1': 0, '1x2': 0, '1x3': 0, '2x1': 0, '2x2': 0, '2x3': 0, '3x1': 0, '3x2': 0, '3x3': 0}
+2026-03-20 21:38:52,551 - mcp-template - INFO - Z żadnych rotacji nie wynika, że coś trzeba zmienić. Czyżby rozwiązane, lub AI nie złapało detalu?
+2026-03-20 21:38:52,552 - mcp-template - INFO - Flaga nie została zwrócona po wykonaniu zaplanowanych obrotów. Aktualizacja i ponowna weryfikacja.
+2026-03-20 21:38:54,552 - mcp-template - INFO - --- Próba 3/3 ---
+2026-03-20 21:39:38,380 - mcp-template - INFO - Rozpoznany stan: {'1x1': ['left', 'bottom'], '1x2': ['bottom', 'right'], '1x3': ['left', 'right'], '2x1': ['bottom', 'right'], '2x2': ['left', 'right', 'bottom'], '2x3': [], '3x1': ['right'], '3x2': ['top', 'left', 'right'], '3x3': []}     
+Brak dopasowania dla 1x2. Docelowo: ['left', 'right', 'bottom'], Obecnie: ['bottom', 'right']   
+2026-03-20 21:39:38,382 - mcp-template - INFO - Wymagane rotacje (o 90 st. w prawo): {'1x1': 3, '1x2': 0, '1x3': 0, '2x1': 0, '2x2': 3, '2x3': 0, '3x1': 0, '3x2': 0, '3x3': 0}        
+2026-03-20 21:39:38,383 - mcp-template - INFO - Obracam kafelek: 1x1
+2026-03-20 21:39:39,532 - mcp-template - INFO - Obracam kafelek: 1x1
+2026-03-20 21:39:40,605 - mcp-template - INFO - Obracam kafelek: 1x1
+2026-03-20 21:39:41,684 - mcp-template - INFO - Obracam kafelek: 2x2
+2026-03-20 21:39:42,794 - mcp-template - INFO - Obracam kafelek: 2x2
+2026-03-20 21:39:43,811 - mcp-template - INFO - Obracam kafelek: 2x2
+2026-03-20 21:39:44,816 - mcp-template - INFO - Flaga nie została zwrócona po wykonaniu zaplanowanych obrotów. Aktualizacja i ponowna weryfikacja.
+2026-03-20 21:39:46,817 - mcp-template - WARNING - Przekroczono maksymalną liczbę prób. Prawdopodobnie model Vision halucynuje.
+PS C:\Users\buyak\Documents\AI_devs\zadania\Z0202> .venv/Scripts/python -c "
+>> import requests
+>> from io import BytesIO
+>> from PIL import Image
+>> from src.config import APIKEY
+>>
+>> url = f'https://hub.ag3nts.org/data/{APIKEY}/electricity.png?reset=1'
+>> resp = requests.get(url)
+>> img = Image.open(BytesIO(resp.content))
+>> print(f'Original image size: {img.size}')
+>> img.save('test_electricity.png')
+>> "
+Original image size: (800, 450)
+PS C:\Users\buyak\Documents\AI_devs\zadania\Z0202> ^C
+PS C:\Users\buyak\Documents\AI_devs\zadania\Z0202> .venv/Scripts/python app.py
+2026-03-20 21:43:34,896 - mcp-template - INFO - Starting Z0202 Electricity Agent...
+2026-03-20 21:43:34,898 - mcp-template - INFO - [ElectricityAgent] Rozpoczynam zadanie: electricity
+2026-03-20 21:43:34,898 - mcp-template - INFO - Resetuję planszę do stanu początkowego...
+2026-03-20 21:43:37,556 - mcp-template - INFO - Pobieranie i analiza obrazu z: https://hub.ag3nts.org/data/aef1bda3-8909-428e-986e-1042b1a197c7/electricity.png
+2026-03-20 21:43:37,556 - mcp-template - INFO - --- Próba 1/3 ---
+2026-03-20 21:44:46,695 - mcp-template - INFO - Rozpoznany stan: {'1x1': ['bottom', 'right'], '1x2': ['top', 'bottom', 'right'], '1x3': ['top', 'bottom'], '2x1': ['left', 'right'], '2x2': ['left', 'right', 'bottom'], '2x3': ['left', 'right', 'bottom'], '3x1': ['top', 'bottom', 'left'], '3x2': ['top', 'left'], '3x3': ['top', 'right']}
+2026-03-20 21:44:46,696 - mcp-template - INFO - Wymagane rotacje (o 90 st. w prawo): {'1x1': 0, '1x2': 1, '1x3': 1, '2x1': 1, '2x2': 3, '2x3': 0, '3x1': 1, '3x2': 0, '3x3': 0}
+2026-03-20 21:44:46,696 - mcp-template - INFO - Obracam kafelek: 1x2
+2026-03-20 21:44:47,690 - mcp-template - INFO - Obracam kafelek: 1x3
+2026-03-20 21:44:48,695 - mcp-template - INFO - Obracam kafelek: 2x1
+2026-03-20 21:44:49,688 - mcp-template - INFO - Obracam kafelek: 2x2
+2026-03-20 21:44:50,659 - mcp-template - INFO - Obracam kafelek: 2x2
+2026-03-20 21:44:51,643 - mcp-template - INFO - Obracam kafelek: 2x2
+2026-03-20 21:44:52,644 - mcp-template - INFO - Obracam kafelek: 3x1
+2026-03-20 21:44:53,140 - mcp-template - INFO - !!! ZNALEZIONO FLAGĘ !!!
+2026-03-20 21:44:53,140 - mcp-template - INFO - Flaga: {FLG:ROTATEIT}
