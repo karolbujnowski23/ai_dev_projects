@@ -1,0 +1,409 @@
+[2026-03-21 06:02] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 06:03] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 06:04] [CRIT] ECCS8 runaway outlet temp trip
+[2026-03-21 06:04] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 06:05] [ERRO] FIRMWARE validation queue fault runtime constrained
+[2026-03-21 06:05] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 06:10] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 06:11] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 06:14] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 06:16] [CRIT] WSTPOOL2 absorption path emergency heat rejection insufficient
+[2026-03-21 06:30] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 06:30] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 06:32] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 06:35] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 06:36] [ERRO] WTANK07 unstable refill coolant not guaranteed
+[2026-03-21 06:37] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 06:37] [ERRO] STMTURB12 feedback loop exceeded thermal reduced
+[2026-03-21 06:38] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 06:40] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 06:41] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 06:44] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 06:49] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 06:50] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 06:50] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 06:52] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 06:52] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 06:55] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 06:58] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 06:59] [ERRO] STMTURB12 feedback loop exceeded thermal reduced
+[2026-03-21 07:02] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 07:05] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 07:06] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 07:09] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 07:12] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 07:16] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 07:18] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 07:22] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 07:24] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 07:24] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 07:27] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 07:27] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 07:30] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 07:31] [WARN] FIRMWARE trend outside startup envelope monitoring increased
+[2026-03-21 07:37] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 07:38] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 07:40] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 07:42] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 07:46] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 07:49] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 07:50] [ERRO] STMTURB12 feedback loop exceeded thermal reduced
+[2026-03-21 07:57] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 07:57] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 08:00] [CRIT] ECCS8 core cooling safe gradient not maintained
+[2026-03-21 08:01] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 08:04] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 08:05] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 08:06] [ERRO] WSTPOOL2 heat transfer path saturated dissipation lag
+[2026-03-21 08:09] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 08:09] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 08:14] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 08:17] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 08:18] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 08:19] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 08:28] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 08:28] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 08:29] [ERRO] STMTURB12 feedback loop exceeded thermal reduced
+[2026-03-21 08:31] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 08:34] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 08:36] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 08:36] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 08:42] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 08:45] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 08:46] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 08:46] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 08:48] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 08:53] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 08:53] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 08:58] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 08:59] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 09:06] [ERRO] ECCS8 return temp rose faster emergency bias armed
+[2026-03-21 09:07] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 09:11] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 09:14] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 09:16] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 09:17] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 09:20] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 09:25] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 09:25] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 09:37] [ERRO] WTANK07 unstable refill coolant not guaranteed
+[2026-03-21 09:38] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 09:39] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 09:41] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 09:44] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 09:45] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 09:46] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 09:52] [ERRO] ECCS8 return temp rose faster emergency bias armed
+[2026-03-21 09:53] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 09:54] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 09:56] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 09:56] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 09:57] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 09:58] [ERRO] WTRPMP reported cavitation output pressure not held
+[2026-03-21 10:01] [ERRO] WSTPOOL2 heat transfer path saturated dissipation lag
+[2026-03-21 10:03] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 10:04] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 10:06] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 10:09] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 10:11] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 10:12] [ERRO] WTANK07 unstable refill coolant not guaranteed
+[2026-03-21 10:15] [CRIT] WTANK07 coolant level below critical shutdown hard trip
+[2026-03-21 10:17] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 10:22] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 10:22] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 10:23] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 10:24] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 10:25] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 10:27] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 10:29] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 10:32] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 10:35] [CRIT] WSTPOOL2 absorption path emergency heat rejection insufficient
+[2026-03-21 10:36] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 10:38] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 10:39] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 10:42] [ERRO] FIRMWARE validation queue fault runtime constrained
+[2026-03-21 10:45] [CRIT] WSTPOOL2 absorption path emergency heat rejection insufficient
+[2026-03-21 10:47] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 10:56] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 10:56] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 11:01] [CRIT] WTRPMP lost stable prime core continuity compromised
+[2026-03-21 11:01] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 11:05] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 11:05] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 11:07] [ERRO] FIRMWARE validation queue fault runtime constrained
+[2026-03-21 11:09] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 11:09] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 11:11] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 11:12] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 11:16] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 11:20] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 11:21] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 11:26] [ERRO] WTRPMP reported cavitation output pressure not held
+[2026-03-21 11:27] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 11:29] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 11:30] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 11:31] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 11:33] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 11:34] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 11:36] [ERRO] STMTURB12 feedback loop exceeded thermal reduced
+[2026-03-21 11:36] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 11:38] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 11:40] [CRIT] ECCS8 core cooling safe gradient not maintained
+[2026-03-21 11:42] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 11:44] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 11:45] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 11:48] [ERRO] WSTPOOL2 heat transfer path saturated dissipation lag
+[2026-03-21 11:50] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 11:51] [ERRO] WTANK07 unstable refill coolant not guaranteed
+[2026-03-21 11:54] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 11:55] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 11:59] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 12:00] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 12:01] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 12:03] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 12:05] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 12:05] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 12:06] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 12:07] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 12:07] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 12:09] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 12:10] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 12:10] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 12:11] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 12:15] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 12:20] [ERRO] FIRMWARE validation queue fault runtime constrained
+[2026-03-21 12:21] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 12:24] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 12:25] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 12:34] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 12:35] [ERRO] FIRMWARE validation queue fault runtime constrained
+[2026-03-21 12:36] [ERRO] ECCS8 return temp rose faster emergency bias armed
+[2026-03-21 12:36] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 12:38] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 12:38] [ERRO] WTRPMP reported cavitation output pressure not held
+[2026-03-21 12:39] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 12:41] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 12:41] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 12:41] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 12:45] [ERRO] WSTPOOL2 heat transfer path saturated dissipation lag
+[2026-03-21 12:46] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 12:47] [ERRO] WTRPMP reported cavitation output pressure not held
+[2026-03-21 12:47] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 12:48] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 12:48] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 12:49] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 12:49] [WARN] WTANK07 advisory threshold crossed reduced tolerance
+[2026-03-21 12:51] [CRIT] FIRMWARE emergency guard branch repeated safety faults locked
+[2026-03-21 12:51] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 12:52] [ERRO] ECCS8 return temp rose faster emergency bias armed
+[2026-03-21 12:52] [ERRO] WTRPMP reported cavitation output pressure not held
+[2026-03-21 12:54] [ERRO] WSTPOOL2 heat transfer path saturated dissipation lag
+[2026-03-21 12:55] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 12:56] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 12:56] [CRIT] STMTURB12 decoupling forced thermal risk terminated
+[2026-03-21 12:57] [CRIT] ECCS8 runaway outlet temp trip
+[2026-03-21 12:59] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 12:59] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 12:59] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 13:00] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 13:01] [CRIT] ECCS8 runaway outlet temp trip
+[2026-03-21 13:02] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 13:04] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 13:04] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 13:05] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 13:07] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 13:09] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 13:10] [ERRO] WTANK07 unstable refill coolant not guaranteed
+[2026-03-21 13:12] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 13:12] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 13:13] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 13:15] [ERRO] WSTPOOL2 heat transfer path saturated dissipation lag
+[2026-03-21 13:15] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 13:17] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 13:18] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 13:18] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 13:19] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 13:20] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 13:21] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 13:22] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 13:24] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 13:24] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 13:24] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 13:25] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 13:27] [ERRO] WSTPOOL2 heat transfer path saturated dissipation lag
+[2026-03-21 13:28] [CRIT] WTRPMP lost stable prime core continuity compromised
+[2026-03-21 13:28] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 13:29] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 13:31] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 13:32] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 13:33] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 13:35] [ERRO] FIRMWARE hardware interface cross-check failed compatibility unresolved
+[2026-03-21 13:35] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 13:37] [CRIT] PWR01 stable feed cooling auxiliaries critical loads shedding
+[2026-03-21 13:38] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 13:39] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 13:40] [CRIT] FIRMWARE emergency guard branch repeated safety faults locked
+[2026-03-21 13:44] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 13:46] [ERRO] ECCS8 return temp rose faster emergency bias armed
+[2026-03-21 13:46] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 13:46] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 13:47] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 13:48] [WARN] PWR01 power stability unstable startup additional source recommended
+[2026-03-21 13:49] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 13:50] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 13:51] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 13:52] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 13:54] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 13:55] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 13:57] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 13:58] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 13:58] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 13:59] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 14:00] [CRIT] STMTURB12 decoupling forced thermal risk terminated
+[2026-03-21 14:01] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 14:04] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 14:05] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 14:07] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 14:07] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 14:08] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 14:12] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 14:12] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 14:17] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 14:18] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 14:18] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 14:19] [ERRO] WTRPMP reported cavitation output pressure not held
+[2026-03-21 14:20] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 14:21] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 14:21] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 14:23] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 14:24] [ERRO] WTRPMP reported cavitation output pressure not held
+[2026-03-21 14:25] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 14:25] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 14:28] [ERRO] FIRMWARE validation queue fault runtime constrained
+[2026-03-21 14:28] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 14:28] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 14:30] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 14:32] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 14:33] [ERRO] FIRMWARE validation queue fault runtime constrained
+[2026-03-21 14:34] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 14:36] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 14:37] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 14:38] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 14:38] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 14:39] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 14:39] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 14:40] [ERRO] STMTURB12 feedback loop exceeded thermal reduced
+[2026-03-21 14:41] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 14:42] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 14:43] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 14:43] [ERRO] ECCS8 return temp rose faster emergency bias armed
+[2026-03-21 14:45] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 14:46] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 14:47] [ERRO] FIRMWARE validation queue fault runtime constrained
+[2026-03-21 14:48] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 14:49] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 14:50] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 14:51] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 14:52] [CRIT] STMTURB12 decoupling forced thermal risk terminated
+[2026-03-21 14:52] [CRIT] FIRMWARE safety bootstrap missing marker restricted validation mode
+[2026-03-21 14:53] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 14:55] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 14:56] [ERRO] WSTPOOL2 heat transfer path saturated dissipation lag
+[2026-03-21 14:57] [CRIT] FIRMWARE emergency guard branch repeated safety faults locked
+[2026-03-21 14:57] [ERRO] STMTURB12 feedback loop exceeded thermal reduced
+[2026-03-21 14:58] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 14:59] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 15:00] [ERRO] ECCS8 return temp rose faster emergency bias armed
+[2026-03-21 15:04] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 15:06] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 15:07] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 15:08] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 15:08] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 15:08] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 15:09] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 15:10] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 15:11] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 15:11] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 15:12] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 15:13] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 15:13] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 15:14] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 15:15] [CRIT] ECCS8 runaway outlet temp trip
+[2026-03-21 15:15] [ERRO] WTRPMP reported cavitation output pressure not held
+[2026-03-21 15:15] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 15:16] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 15:18] [ERRO] STMTURB12 feedback loop exceeded thermal reduced
+[2026-03-21 15:19] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 15:20] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 15:21] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 15:21] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 15:22] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 15:22] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 15:23] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 15:23] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 15:24] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 15:25] [ERRO] ECCS8 return temp rose faster emergency bias armed
+[2026-03-21 15:27] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 15:27] [ERRO] WTANK07 unstable refill coolant not guaranteed
+[2026-03-21 15:28] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 15:30] [ERRO] WTRPMP reported cavitation output pressure not held
+[2026-03-21 15:30] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 15:33] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 15:33] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 15:33] [ERRO] WTANK07 unstable refill coolant not guaranteed
+[2026-03-21 15:34] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 15:35] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 15:36] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 15:36] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 15:37] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 15:37] [WARN] STMTURB12 pressure jitter high damping engaged
+[2026-03-21 15:38] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 15:40] [ERRO] WTANK07 unstable refill coolant not guaranteed
+[2026-03-21 15:40] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 15:41] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 15:42] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 15:43] [ERRO] ECCS8 return temp rose faster emergency bias armed
+[2026-03-21 15:43] [WARN] PWR01 input ripple warning stability narrowed
+[2026-03-21 15:44] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 15:47] [ERRO] WSTPOOL2 heat transfer path saturated dissipation lag
+[2026-03-21 15:47] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 15:47] [WARN] WSTPOOL2 parameter drift initialization correction active
+[2026-03-21 15:51] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 15:52] [ERRO] STMTURB12 feedback loop exceeded thermal reduced
+[2026-03-21 15:54] [ERRO] WTRPMP suction profile inconsistent mechanical stress increasing
+[2026-03-21 15:55] [ERRO] PWR01 transient disturbed aux pump degraded margin
+[2026-03-21 15:55] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 15:56] [WARN] FIRMWARE watchdog delayed poll retry active
+[2026-03-21 15:57] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 15:58] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 15:58] [CRIT] WSTPOOL2 absorption path emergency heat rejection insufficient
+[2026-03-21 15:59] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 16:01] [ERRO] WSTPOOL2 heat transfer path saturated dissipation lag
+[2026-03-21 16:03] [CRIT] WTRPMP lost stable prime core continuity compromised
+[2026-03-21 16:03] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 16:04] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 16:05] [CRIT] ECCS8 core cooling safe gradient not maintained
+[2026-03-21 16:06] [CRIT] WSTPOOL2 absorption path emergency heat rejection insufficient
+[2026-03-21 16:06] [CRIT] WSTPOOL2 critical protection state startup shutdown active
+[2026-03-21 16:07] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 16:07] [WARN] WTRPMP unstable readings warning escalation armed
+[2026-03-21 16:08] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 16:09] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 16:10] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 16:11] [WARN] WTANK07 level sensor mismatch secondary read
+[2026-03-21 16:12] [ERRO] WTRPMP reported cavitation output pressure not held
+[2026-03-21 16:13] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 16:14] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 16:15] [ERRO] ECCS8 cooling efficiency dropped commands no recovery
+[2026-03-21 16:15] [ERRO] FIRMWARE validation queue fault runtime constrained
+[2026-03-21 16:16] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 16:17] [CRIT] PWR01 stable feed cooling auxiliaries critical loads shedding
+[2026-03-21 16:18] [ERRO] WTANK07 level estimate dropped refill timed out
+[2026-03-21 16:19] [WARN] WSTPOOL2 waste heat relay soft cap tuning required
+[2026-03-21 16:20] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 16:20] [WARN] WTRPMP duty cycle elevated efficiency reduced
+[2026-03-21 16:22] [WARN] ECCS8 rising return temp cooling headroom decreasing
+[2026-03-21 16:22] [ERRO] WTANK07 unstable refill coolant not guaranteed
+[2026-03-21 16:23] [WARN] ECCS8 thermal drift advisory ramp queued
+[2026-03-21 16:23] [WARN] WTRPMP flow margin low startup profile
+[2026-03-21 16:24] [WARN] PWR01 input ripple warning

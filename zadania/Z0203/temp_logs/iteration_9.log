@@ -1,0 +1,85 @@
+[2026-03-21 06:02] [WARN] STMTURB12 pressure jitter
+[2026-03-21 06:03] [WARN] ECCS8 thermal drift advisory threshold
+[2026-03-21 06:04] [CRIT] ECCS8 runaway outlet temp trip
+[2026-03-21 06:04] [WARN] WTANK07 fill trajectory slow reserve constrained
+[2026-03-21 06:05] [ERRO] FIRMWARE validation fault runtime constrained
+[2026-03-21 06:05] [WARN] WTRPMP flow margin below startup profile
+[2026-03-21 06:11] [WARN] PWR01 input ripple warning limits
+[2026-03-21 06:14] [WARN] FIRMWARE watchdog delayed poll
+[2026-03-21 06:16] [CRIT] WSTPOOL2 absorption path emergency heat rejection fail
+[2026-03-21 06:30] [WARN] ECCS8 return temp rising headroom decreasing
+[2026-03-21 06:30] [WARN] WSTPOOL2 waste heat relay soft cap
+[2026-03-21 06:35] [ERRO] PWR01 transient aux pump control degraded
+[2026-03-21 06:36] [ERRO] WTANK07 unstable refill trend coolant not guaranteed
+[2026-03-21 06:37] [ERRO] STMTURB12 feedback loop exceeded thermal conversion reduced
+[2026-03-21 06:50] [WARN] WTRPMP duty cycle elevated
+[2026-03-21 06:52] [WARN] WTANK07 level sensor mismatch
+[2026-03-21 07:31] [WARN] FIRMWARE trend outside startup envelope increased monitoring
+[2026-03-21 07:24] [ERRO] WTRPMP suction profile inconsistent mechanical stress
+[2026-03-21 08:00] [CRIT] ECCS8 core cooling unsafe gradient
+[2026-03-21 08:06] [ERRO] WSTPOOL2 heat transfer saturated dissipation lag
+[2026-03-21 08:28] [ERRO] ECCS8 cooling efficiency dropped
+[2026-03-21 08:36] [ERRO] WTANK07 level dropped refill timeout
+[2026-03-21 09:06] [ERRO] ECCS8 return temp rose fast
+[2026-03-21 09:56] [ERRO] ECCS8 cooling efficiency dropped
+[2026-03-21 09:58] [ERRO] WTRPMP cavitation pressure not held
+[2026-03-21 10:01] [ERRO] WSTPOOL2 heat transfer saturated dissipation lag
+[2026-03-21 10:09] [ERRO] WTANK07 level dropped refill timeout
+[2026-03-21 10:11] [ERRO] WTRPMP suction profile inconsistent mechanical stress
+[2026-03-21 10:12] [ERRO] WTANK07 unstable refill trend coolant not guaranteed
+[2026-03-21 10:15] [CRIT] WTANK07 coolant level critical shutdown trip
+[2026-03-21 10:35] [CRIT] WSTPOOL2 absorption path emergency heat rejection fail
+[2026-03-21 10:42] [ERRO] FIRMWARE validation fault runtime constrained
+[2026-03-21 10:45] [CRIT] WSTPOOL2 absorption path emergency heat rejection fail
+[2026-03-21 11:01] [CRIT] WTRPMP lost prime core continuity compromised
+[2026-03-21 11:07] [ERRO] FIRMWARE validation fault runtime constrained
+[2026-03-21 11:26] [ERRO] WTRPMP cavitation pressure not held
+[2026-03-21 11:40] [CRIT] ECCS8 core cooling unsafe gradient
+[2026-03-21 11:48] [ERRO] WSTPOOL2 heat transfer saturated dissipation lag
+[2026-03-21 11:54] [ERRO] ECCS8 cooling efficiency dropped
+[2026-03-21 12:20] [ERRO] FIRMWARE validation fault runtime constrained
+[2026-03-21 12:24] [ERRO] WTANK07 level dropped refill timeout
+[2026-03-21 12:35] [ERRO] FIRMWARE validation fault runtime constrained
+[2026-03-21 12:36] [ERRO] ECCS8 return temp rose fast
+[2026-03-21 12:38] [ERRO] WTRPMP cavitation pressure not held
+[2026-03-21 12:41] [ERRO] WTANK07 level dropped refill timeout
+[2026-03-21 12:45] [ERRO] WSTPOOL2 heat transfer saturated dissipation lag
+[2026-03-21 12:47] [ERRO] WTRPMP cavitation pressure not held
+[2026-03-21 12:48] [ERRO] WTRPMP suction profile inconsistent mechanical stress
+[2026-03-21 12:49] [WARN] WTANK07 advisory threshold crossed reduced tolerance
+[2026-03-21 12:51] [CRIT] FIRMWARE emergency guard safety faults locked
+[2026-03-21 12:52] [ERRO] ECCS8 return temp rose fast
+[2026-03-21 12:52] [ERRO] WTRPMP cavitation pressure not held
+[2026-03-21 12:54] [ERRO] WSTPOOL2 heat transfer saturated dissipation lag
+[2026-03-21 12:56] [CRIT] STMTURB12 decoupling thermal risk terminated
+[2026-03-21 12:57] [CRIT] ECCS8 runaway outlet temp trip
+[2026-03-21 12:59] [ERRO] WTRPMP suction profile inconsistent mechanical stress
+[2026-03-21 13:01] [CRIT] ECCS8 runaway outlet temp trip
+[2026-03-21 13:04] [ERRO] WTANK07 level dropped refill timeout
+[2026-03-21 13:10] [ERRO] WTANK07 unstable refill trend coolant not guaranteed
+[2026-03-21 13:12] [ERRO] WTANK07 level dropped refill timeout
+[2026-03-21 13:12] [ERRO] ECCS8 cooling efficiency dropped
+[2026-03-21 13:13] [ERRO] WTRPMP suction profile inconsistent mechanical stress
+[2026-03-21 13:15] [ERRO] WSTPOOL2 heat transfer saturated dissipation lag
+[2026-03-21 13:18] [ERRO] WTRPMP suction profile inconsistent mechanical stress
+[2026-03-21 13:24] [ERRO] WTANK07 level dropped refill timeout
+[2026-03-21 13:25] [ERRO] ECCS8 cooling efficiency dropped
+[2026-03-21 13:27] [ERRO] WSTPOOL2 heat transfer saturated dissipation lag
+[2026-03-21 13:28] [CRIT] WTRPMP lost prime core continuity compromised
+[2026-03-21 13:35] [ERRO] FIRMWARE hardware interface map cross-check fail
+[2026-03-21 13:37] [CRIT] PWR01 unstable feed cooling loads shedding
+[2026-03-21 13:40] [CRIT] FIRMWARE emergency guard safety faults locked
+[2026-03-21 13:46] [ERRO] ECCS8 return temp rose fast
+[2026-03-21 13:47] [ERRO] ECCS8 cooling efficiency dropped
+[2026-03-21 13:48] [WARN] PWR01 power stability unstable startup
+[2026-03-21 13:58] [ERRO] WTRPMP suction profile inconsistent mechanical stress
+[2026-03-21 14:00] [CRIT] STMTURB12 decoupling thermal risk terminated
+[2026-03-21 14:05] [ERRO] ECCS8 cooling efficiency dropped
+[2026-03-21 14:07] [ERRO] ECCS8 cooling efficiency dropped
+[2026-03-21 14:18] [ERRO] ECCS8 cooling efficiency dropped
+[2026-03-21 14:19] [ERRO] PWR01 transient aux pump control degraded
+[2026-03-21 14:19] [ERRO] WTRPMP cavitation pressure not held
+[2026-03-21 14:24] [ERRO] WTRPMP cavitation pressure not held
+[2026-03-21 14:28] [ERRO] FIRMWARE validation fault runtime constrained
+[2026-03-21 14:33] [ERRO] FIRMWARE validation fault runtime constrained
+[2026-03-21 14:37] [ERRO] ECCS8 cooling efficiency
