@@ -1,0 +1,82 @@
+2026-03-23 22:35:19,800 - App - INFO - Starting Drone Mission Application (Z0205)
+2026-03-23 22:35:19,800 - App - INFO - Phase 1: Downloading map and analyzing with Vision Model
+2026-03-23 22:35:20,612 - App - INFO - Map image downloaded and encoded.
+2026-03-23 22:35:20,613 - App - DEBUG - Calling Gemini API model=gemini-3-flash-preview
+2026-03-23 22:35:21,683 - App - ERROR - Gemini API error on attempt 1: 403 - {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+2026-03-23 22:45:34,479 - App - INFO - Starting Drone Mission Application (Z0205)
+2026-03-23 22:45:34,479 - App - INFO - Phase 1: Downloading map and analyzing with Vision Model
+2026-03-23 22:45:35,102 - App - INFO - Map image downloaded and encoded.
+2026-03-23 22:45:35,102 - App - DEBUG - Calling Gemini API model=gemini-3-flash-preview
+2026-03-23 22:45:48,008 - App - DEBUG - Gemini API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "The image has 4 rows and 3 columns.\nThe sector containing the dam with the blue water is (2,4).\nThe e...
+2026-03-23 22:45:48,013 - App - INFO - Vision Response:
+The image has 4 rows and 3 columns.
+The sector containing the dam with the blue water is (2,4).
+The estimated altitude is (300m).
+2026-03-23 22:45:48,014 - App - INFO - Phase 2: Generating initial drone instructions
+2026-03-23 22:45:48,015 - App - INFO - Agent Attempt 1
+2026-03-23 22:45:48,016 - App - DEBUG - Calling Gemini API model=gemini-2.5-flash
+2026-03-23 22:45:57,539 - App - DEBUG - Gemini API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n[\n  \"calibrateGPS\",\n  \"calibrateCompass\",\n  \"selfCheck\",\n  \"set(engineON)\",\n  \"s...
+2026-03-23 22:45:57,542 - App - INFO - Agent Attempt 1 raw output:
+```json
+[
+  "calibrateGPS",
+  "calibrateCompass",
+  "selfCheck",
+  "set(engineON)",
+  "setDestinationObject(PWR6132PL)",
+  "set(2,4)",
+  "set(100m)",
+  "set(image)",
+  "set(destroy)",
+  "
+2026-03-23 22:45:57,543 - App - ERROR - Failed to parse JSON: Unterminated string starting at: line 11 column 3 (char 178)
+2026-03-23 22:45:57,544 - App - INFO - Agent Attempt 2
+2026-03-23 22:45:57,544 - App - DEBUG - Calling Gemini API model=gemini-2.5-flash
+2026-03-23 22:46:04,258 - App - DEBUG - Gemini API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "[\n  \"calibrateGPS\",\n  \"calibrateCompass\",\n  \"selfCheck\",\n  \"set(engineON)\",\n  \"setDestina...
+2026-03-23 22:46:04,261 - App - INFO - Agent Attempt 2 raw output:
+[
+  "calibrateGPS",
+  "calibrateCompass",
+  "selfCheck",
+  "set(engineON)",
+  "setDestinationObject(PWR6132PL)",
+  "set(2,4)",
+  "set(100m)",
+  "set(image)",
+  "set(destroy)",
+  "set(10%)",
+  "set(return)",
+  "flyToLocation"
+]
+2026-03-23 22:46:04,261 - App - INFO - Verifying instructions via Hub API: ['calibrateGPS', 'calibrateCompass', 'selfCheck', 'set(engineON)', 'setDestinationObject(PWR6132PL)', 'set(2,4)', 'set(100m)', 'set(image)', 'set(destroy)', 'set(10%)', 'set(return)', 'flyToLocation']
+2026-03-23 22:46:04,262 - App - DEBUG - Sending to /verify: {"apikey": "aef1bda3-8909-428e-986e-1042b1a197c7", "task": "drone", "answer": {"instructions": ["calibrateGPS", "calibrateCompass", "selfCheck", "set(engineON)", "setDestinationObject(PWR6132PL)", "set(2,4)", "set(100m)", "set(image)", "set(destroy)", "set(10%)", "set(return)", "flyToLocation"]}}
+2026-03-23 22:46:04,746 - App - DEBUG - /verify Response: {
+    "code": 0,
+    "message": "{FLG:LETSFLY}"
+}
+2026-03-23 22:46:04,747 - App - INFO - SUCCESS! Flag obtained: {'code': 0, 'message': '{FLG:LETSFLY}'}

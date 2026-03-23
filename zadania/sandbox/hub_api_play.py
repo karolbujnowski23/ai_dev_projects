@@ -48,31 +48,49 @@ def get_mail(action: str, page: int) -> dict:
     except requests.exceptions.RequestException as e:
         return {"error": f"Verification API Error ({e})"}
 
+def drone(instructions: list) -> dict:
+    """
+    Example function to demonstrate how to call the zmail API.
+    """
+    url = "https://hub.ag3nts.org/verify"
+    payload = {
+        "apikey": APIKEY,
+        "task": "drone",
+        "answer": {
+            "instructions": instructions
+        }
+    }
+    try:
+        response = requests.post(
+            url, json=payload)
+
+        result = response.json()
+    except requests.exceptions.RequestException as e:
+        result = {"error": f"API Error ({e})"}
+
+    return json.dumps(result, indent=2)
 if __name__ == '__main__':
     # Example usage
-    print("getting help...")
+    print("setting drone...")
 
-    """ 
-    mail_actions={}
-    for i in range(20):
-        if i > 0 and (not result.get('actions') or 'error' in result):
-            break
-        print(f"Getting page {i+1} of mail actions...")
-        result = get_mail(action='help', page=i+1)
-        mail_actions.update(result['actions'])
-        # print(json.dumps(result, indent=2))
-        print([*result['actions']])
+    self_check = [
+      "calibrateGPS",
+      "calibrateCompass",
+      "selfCheck",
+      "setDestinationObject(PWR6132PL)",
+      "set(2,4)",
+      "set(100m)",
+      "set(engineON)",
+      "set(10%)",
+      "set(image)",
+      "set(destroy)",
+      "set(return)",
+      "flyToLocation"
+        ]
+    set_name = ["setName(Orzel 7)"]
     
-    # result = get_mail(action='help', page=2)
-    # print(json.dumps(result['actions'], indent=2))
-    print(json.dumps(mail_actions, indent=2))
-    print([*mail_actions])
-    """
-    
-    print(json.dumps(get_mail(action='help', page=1), indent=2))
-    print(json.dumps(get_mail(action='help', page=5), indent=2))
-    
+    result = drone(self_check)
+    print(f"self check result: {result}")
 
-    
 
     

@@ -15,7 +15,8 @@ The system must follow a strict modular structure:
 - `src/config.py`: Loads environment variables from `../.config`. Keys: `APIKEY`, `GEMINI_APIKEY`, `OPENR_APIKEY`.
 - `src/api.py`: Low-level API clients for Gemini and OpenRouter using `requests`. Must support **Prompt Caching**.
 - `src/tools.py`: Centralized repository for Function Calling tools.
-- `src/app.py`: Entry point and custom orchestrator using a model configuration dictionary.
+- `app.py`: Entry point and custom orchestrator using a model configuration dictionary.
+- `requirements.txt`: Python libraries required for this project
 
 ## 3. INTERACTION PROTOCOL (Crucial):
 Before providing the final solution, you MUST ask clarifying questions to gather necessary context regarding:
