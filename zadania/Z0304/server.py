@@ -43,7 +43,8 @@ def negotiations():
         # Enforce technical limitations (4 to 500 bytes)
         if len(response_text.encode('utf-8')) > 500:
             log.info("Response exceeded 500 bytes.")
-            response_text = "The response is too large. Please refine your query to narrow down the items."
+            response_text = response_text.encode('utf-8')[:490].decode('utf-8', 'ignore') 
+            # response_text = "The response is too large. Please refine your query to narrow down the items."
         if len(response_text.encode('utf-8')) < 4:
             log.info("Response below 4 bytes.")
             response_text = "No results found matching your query."

@@ -202,3 +202,72 @@ Starting Orchestrator for task Z0304
 2026-03-28 10:48:38,302 - App - INFO - Verification status: {'code': 0, 'message': '{FLG:WINDFARM}', 'cities': ['Domatowo', 'Skolwin']}
 2026-03-28 10:48:38,303 - App - INFO - [SUCCESS] Final result from centrala: {'code': 0, 'message': '{FLG:WINDFARM}', 'cities': ['Domatowo', 'Skolwin']}
 2026-03-28 10:48:38,304 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 11:39:23,772 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 11:39:23,772 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 11:39:23,773 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 11:39:24,286 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 11:39:24,288 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 11:40:04,288 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 11:40:04,823 - App - ERROR - Failed to check status: 400 - {
+    "code": -790,
+    "message": "The tool returned a 301 redirect, which is not a valid response. I need to know which cities have specific items, but the tool is not working correctly."
+}
+2026-03-28 11:40:04,826 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-28 11:40:04,826 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 11:42:59,625 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 11:42:59,626 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 11:42:59,626 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 11:43:00,195 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 11:43:00,197 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 11:43:40,198 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 11:43:40,711 - App - INFO - Verification status: {'code': 0, 'message': '{FLG:WINDFARM}', 'cities': ['Domatowo', 'Skolwin']}
+2026-03-28 11:43:40,716 - App - INFO - [SUCCESS] Final result from centrala: {'code': 0, 'message': '{FLG:WINDFARM}', 'cities': ['Domatowo', 'Skolwin']}
+2026-03-28 11:43:40,717 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 13:49:19,680 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 13:49:19,680 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 13:49:19,681 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 13:49:20,203 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 13:49:20,205 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 13:50:00,206 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 13:50:00,721 - App - ERROR - Failed to check status: 400 - {
+    "code": -835,
+    "message": "Agent tried to send the secret flag to the tool! - the censorship does not allow it."
+}
+2026-03-28 13:50:00,722 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-28 13:50:00,723 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 13:55:15,593 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 13:55:15,593 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 13:55:15,594 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 13:55:16,317 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 13:55:16,319 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 13:55:56,319 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 13:55:56,821 - App - ERROR - Failed to check status: 400 - {
+    "code": -835,
+    "message": "Agent tried to send the secret flag to the tool! - the censorship does not allow it."
+}
+2026-03-28 13:55:56,823 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-28 13:55:56,823 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 13:57:33,593 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 13:57:33,594 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 13:57:33,594 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 13:57:34,097 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 13:57:34,099 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 13:58:14,100 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 13:58:14,599 - App - INFO - Verification status: {'code': 0, 'message': '{FLG:WINDFARM}', 'cities': ['Domatowo', 'Skolwin']}
+2026-03-28 13:58:14,601 - App - INFO - [SUCCESS] Final result from centrala: {'code': 0, 'message': '{FLG:WINDFARM}', 'cities': ['Domatowo', 'Skolwin']}
+2026-03-28 13:58:14,601 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
