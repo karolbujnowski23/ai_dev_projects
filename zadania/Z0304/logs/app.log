@@ -1,0 +1,204 @@
+2026-03-27 22:34:30,318 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-27 22:34:30,318 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-27 22:34:30,319 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-27 22:35:44,853 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-27 22:35:44,854 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-27 22:35:44,854 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-27 22:35:51,551 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-27 22:35:51,551 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-27 22:35:51,552 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-27 22:36:35,646 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-27 22:36:35,647 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-27 22:36:35,647 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-27 23:15:03,143 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-27 23:15:03,143 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-27 23:15:03,144 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-27 23:16:16,554 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-27 23:16:16,554 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-27 23:16:16,555 - App - INFO - Submitting tools to https://centrala.ag3nts.org/verify...
+2026-03-27 23:16:17,079 - App - ERROR - Failed to submit tools: 400 Client Error: Bad Request for url: https://centrala.ag3nts.org/verify
+2026-03-27 23:16:17,081 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-27 23:16:57,082 - App - INFO - Checking verification status at https://centrala.ag3nts.org/verify...
+2026-03-27 23:16:57,596 - App - ERROR - Failed to check status: 400 Client Error: Bad Request for url: https://centrala.ag3nts.org/verify
+2026-03-27 23:16:57,599 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-27 23:16:57,599 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-27 23:19:01,910 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-27 23:19:01,911 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-27 23:19:01,911 - App - INFO - Submitting tools to https://centrala.ag3nts.org/verify...
+2026-03-27 23:19:02,544 - App - ERROR - Failed to submit tools: 400 - {
+    "code": -166,
+    "message": "task not found: negotiations (AI_Devs 3)"
+}
+2026-03-27 23:19:02,549 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-27 23:19:42,551 - App - INFO - Checking verification status at https://centrala.ag3nts.org/verify...
+2026-03-27 23:19:43,133 - App - ERROR - Failed to check status: 400 - {
+    "code": -166,
+    "message": "task not found: negotiations (AI_Devs 3)"
+}
+2026-03-27 23:19:43,135 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-27 23:19:43,135 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-27 23:23:16,328 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-27 23:23:16,328 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-27 23:23:16,329 - App - INFO - Submitting tools to https://centrala.ag3nts.org/verify...
+2026-03-27 23:23:17,048 - App - ERROR - Failed to submit tools: 400 - {
+    "code": -166,
+    "message": "task not found: s03e04 (AI_Devs 3)"
+}
+2026-03-27 23:23:17,052 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-27 23:23:57,054 - App - INFO - Checking verification status at https://centrala.ag3nts.org/verify...
+2026-03-27 23:23:57,608 - App - ERROR - Failed to check status: 400 - {
+    "code": -166,
+    "message": "task not found: s03e04 (AI_Devs 3)"
+}
+2026-03-27 23:23:57,610 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-27 23:23:57,610 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-27 23:42:14,261 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-27 23:42:14,261 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-27 23:42:14,261 - App - INFO - Submitting tools to https://centrala.ag3nts.org/verify...
+2026-03-27 23:42:14,806 - App - ERROR - Failed to submit tools: 400 - {
+    "code": -166,
+    "message": "task not found: s03e04 (AI_Devs 3)"
+}
+2026-03-27 23:42:14,808 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-27 23:42:54,809 - App - INFO - Checking verification status at https://centrala.ag3nts.org/verify...
+2026-03-27 23:42:55,393 - App - ERROR - Failed to check status: 400 - {
+    "code": -166,
+    "message": "task not found: s03e04 (AI_Devs 3)"
+}
+2026-03-27 23:42:55,394 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-27 23:42:55,395 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-27 23:47:51,148 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-27 23:47:51,148 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-27 23:47:51,148 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-27 23:47:51,724 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-27 23:47:51,725 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-27 23:48:31,726 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-27 23:48:32,210 - App - ERROR - Failed to check status: 400 - {
+    "code": -790,
+    "message": "The tool failed to identify the item. Please try to rephrase the item name."
+}
+2026-03-27 23:48:32,211 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-27 23:48:32,212 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 00:17:37,173 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 00:17:37,173 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 00:17:37,173 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 00:17:37,662 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 00:17:37,664 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 00:18:17,665 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 00:18:18,128 - App - ERROR - Failed to check status: 400 - {
+    "code": -790,
+    "message": "The tool could not identify the item. Please specify the exact name of the item."
+}
+2026-03-28 00:18:18,130 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-28 00:18:18,130 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 00:24:19,938 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 00:24:19,938 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 00:24:19,939 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 00:24:20,635 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 00:24:20,640 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 00:25:00,641 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 00:25:01,133 - App - ERROR - Failed to check status: 400 - {
+    "code": -790,
+    "message": "The tool could not identify the item 'Turbina wiatrowa maj\u0105ca 48V i moc 400W'. Please try to rephrase the item description or provide alternative phrasing."
+}
+2026-03-28 00:25:01,134 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-28 00:25:01,135 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 00:29:43,952 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 00:29:43,952 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 00:29:43,952 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 00:29:44,470 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 00:29:44,471 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 00:30:24,472 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 00:30:25,035 - App - ERROR - Failed to check status: 400 - {
+    "code": -790,
+    "message": "The tool could not identify the item. Please try rephrasing the item name."
+}
+2026-03-28 00:30:25,037 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-28 00:30:25,037 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 00:31:47,646 - App - INFO - [SUCCESS] Successfully loaded cities.csv
+2026-03-28 00:31:48,117 - App - INFO - [SUCCESS] Successfully loaded items.csv
+2026-03-28 00:31:48,590 - App - INFO - [SUCCESS] Successfully loaded connections.csv
+2026-03-28 00:35:17,471 - App - INFO - [SUCCESS] Successfully loaded cities.csv
+2026-03-28 00:35:17,978 - App - INFO - [SUCCESS] Successfully loaded items.csv
+2026-03-28 00:35:18,460 - App - INFO - [SUCCESS] Successfully loaded connections.csv
+2026-03-28 00:36:44,461 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 00:36:44,462 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 00:36:44,462 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 00:36:44,945 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 00:36:44,947 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 00:37:24,948 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 00:37:25,438 - App - ERROR - Failed to check status: 400 - {
+    "code": -790,
+    "message": "The tool indicated that it could not identify valid items. Please provide the exact names of the items needed."
+}
+2026-03-28 00:37:25,439 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-28 00:37:25,439 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 10:41:18,293 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 10:41:18,294 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 10:41:18,294 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 10:41:18,896 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 10:41:18,898 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 10:41:58,898 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 10:41:59,392 - App - ERROR - Failed to check status: 400 - {
+    "code": -790,
+    "message": "The tool could not identify the item 'Turbina wiatrowa maj\u0105ca 48V i moc 400W'. I need to rephrase the item name to make it understandable for the tool."
+}
+2026-03-28 10:41:59,394 - App - INFO - [SUCCESS] Final result from centrala: {}
+2026-03-28 10:41:59,394 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
+2026-03-28 10:47:57,125 - App - INFO - 
+====================================
+Starting Orchestrator for task Z0304
+====================================
+2026-03-28 10:47:57,154 - App - INFO - Starting verification loop. Make sure `server.py` is running on your remote host first!
+2026-03-28 10:47:57,157 - App - INFO - Submitting tools to https://hub.ag3nts.org/verify...
+2026-03-28 10:47:57,809 - App - INFO - [SUCCESS] Tools submitted successfully: {'code': 0, 'message': 'Your request has been queued for verification. Come back in a moment for the final result.'}
+2026-03-28 10:47:57,814 - App - INFO - Waiting 40 seconds for the agent to process our tools...
+2026-03-28 10:48:37,816 - App - INFO - Checking verification status at https://hub.ag3nts.org/verify...
+2026-03-28 10:48:38,302 - App - INFO - Verification status: {'code': 0, 'message': '{FLG:WINDFARM}', 'cities': ['Domatowo', 'Skolwin']}
+2026-03-28 10:48:38,303 - App - INFO - [SUCCESS] Final result from centrala: {'code': 0, 'message': '{FLG:WINDFARM}', 'cities': ['Domatowo', 'Skolwin']}
+2026-03-28 10:48:38,304 - App - INFO - Orchestrator finished. If you didn't get a flag, ensure the server is responding at the provided URL.
