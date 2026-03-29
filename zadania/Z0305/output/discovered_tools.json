@@ -1,0 +1,130 @@
+{
+    "map": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "map",
+        "tools": [
+            {
+                "name": "maps",
+                "url": "/api/maps",
+                "description": "Terrain maps and map-related location resources.",
+                "parameter": "query",
+                "score": 5,
+                "matched_keywords": [
+                    "map"
+                ]
+            }
+        ]
+    },
+    "terrain rules": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "terrain rules",
+        "tools": [
+            {
+                "name": "maps",
+                "url": "/api/maps",
+                "description": "Terrain maps and map-related location resources.",
+                "parameter": "query",
+                "score": 5,
+                "matched_keywords": [
+                    "terrain"
+                ]
+            }
+        ]
+    },
+    "vehicles": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "vehicles",
+        "tools": [
+            {
+                "name": "wehicles",
+                "url": "/api/wehicles",
+                "description": "Information about vehicles and means of transportation.",
+                "parameter": "query",
+                "score": 7,
+                "matched_keywords": [
+                    "vehicle",
+                    "vehicles"
+                ]
+            }
+        ]
+    },
+    "Skolwin": {
+        "code": 210,
+        "message": "No matching tools found.",
+        "query": "Skolwin",
+        "tools": []
+    },
+    "maual": {
+        "code": 210,
+        "message": "No matching tools found.",
+        "query": "maual",
+        "tools": []
+    },
+    "guide": {
+        "code": 210,
+        "message": "No matching tools found.",
+        "query": "guide",
+        "tools": []
+    },
+    "instructions": {
+        "code": 210,
+        "message": "No matching tools found.",
+        "query": "instructions",
+        "tools": []
+    },
+    "notes": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "notes",
+        "tools": [
+            {
+                "name": "books",
+                "url": "/api/books",
+                "description": "Old books and notebooks with various notes.",
+                "parameter": "query",
+                "score": 7,
+                "matched_keywords": [
+                    "notes",
+                    "note"
+                ]
+            }
+        ]
+    },
+    "note": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "note",
+        "tools": [
+            {
+                "name": "books",
+                "url": "/api/books",
+                "description": "Old books and notebooks with various notes.",
+                "parameter": "query",
+                "score": 5,
+                "matched_keywords": [
+                    "note"
+                ]
+            }
+        ]
+    },
+    "book": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "book",
+        "tools": [
+            {
+                "name": "books",
+                "url": "/api/books",
+                "description": "Old books and notebooks with various notes.",
+                "parameter": "query",
+                "score": 5,
+                "matched_keywords": [
+                    "book"
+                ]
+            }
+        ]
+    }
+}

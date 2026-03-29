@@ -1,0 +1,369 @@
+{
+    "verify_rules": [
+        {
+            "code": -950,
+            "message": "Unknown operation at index 0: \"check\". Allowed operations: up, down, left, right, dismount, rocket, horse, walk, car."
+        }
+    ],
+    "map": [
+        {
+            "tool_info": {
+                "name": "maps",
+                "url": "/api/maps",
+                "description": "Terrain maps and map-related location resources.",
+                "parameter": "query",
+                "score": 5,
+                "matched_keywords": [
+                    "map"
+                ]
+            },
+            "result": {
+                "code": 241,
+                "message": "Map found.",
+                "cityName": "Skolwin",
+                "map": [
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        "W"
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        "W",
+                        "."
+                    ],
+                    [
+                        ".",
+                        "T",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        "W",
+                        ".",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        ".",
+                        ".",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        "T",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        ".",
+                        "G",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "R",
+                        ".",
+                        "W",
+                        ".",
+                        ".",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        "R",
+                        "R",
+                        ".",
+                        "W",
+                        "W",
+                        ".",
+                        "."
+                    ],
+                    [
+                        "S",
+                        "R",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        ".",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        "W",
+                        ".",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        "W",
+                        ".",
+                        ".",
+                        "."
+                    ]
+                ],
+                "text": "........WW\n.......WW.\n.T....WW..\n......W...\n..T...W.G.\n....R.W...\n...RR.WW..\nSR.....W..\n......WW..\n.....WW..."
+            }
+        }
+    ],
+    "terrain rules": [
+        {
+            "tool_info": {
+                "name": "maps",
+                "url": "/api/maps",
+                "description": "Terrain maps and map-related location resources.",
+                "parameter": "query",
+                "score": 5,
+                "matched_keywords": [
+                    "terrain"
+                ]
+            },
+            "result": {
+                "code": 241,
+                "message": "Map found.",
+                "cityName": "Skolwin",
+                "map": [
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        "W"
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        "W",
+                        "."
+                    ],
+                    [
+                        ".",
+                        "T",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        "W",
+                        ".",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        ".",
+                        ".",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        "T",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        ".",
+                        "G",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "R",
+                        ".",
+                        "W",
+                        ".",
+                        ".",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        "R",
+                        "R",
+                        ".",
+                        "W",
+                        "W",
+                        ".",
+                        "."
+                    ],
+                    [
+                        "S",
+                        "R",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        ".",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        "W",
+                        ".",
+                        "."
+                    ],
+                    [
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        ".",
+                        "W",
+                        "W",
+                        ".",
+                        ".",
+                        "."
+                    ]
+                ],
+                "text": "........WW\n.......WW.\n.T....WW..\n......W...\n..T...W.G.\n....R.W...\n...RR.WW..\nSR.....W..\n......WW..\n.....WW..."
+            }
+        }
+    ],
+    "notes": [
+        {
+            "tool_info": {
+                "name": "books",
+                "url": "/api/books",
+                "description": "Old books and notebooks with various notes.",
+                "parameter": "query",
+                "score": 7,
+                "matched_keywords": [
+                    "notes",
+                    "note"
+                ]
+            },
+            "result": {
+                "code": 220,
+                "message": "These are the three best matching notes from a much larger archive.",
+                "query": "rules",
+                "search_mode": "full_text",
+                "returned": 1,
+                "notes": [
+                    {
+                        "id": "vehicle-selection",
+                        "title": "Vehicle choice, walking, and dismount",
+                        "content": "The vehicle can be selected only at the very beginning of the journey. Once the mission starts, the traveler cannot switch from one vehicle to another. There is, however, one exception built into the rules: the traveler may leave the current vehicle and continue on foot. The command used for that action is dismount. After dismounting, movement continues in walk mode, which is useful when the route demands flexibility rather than speed.",
+                        "score": 3,
+                        "matched_terms": [
+                            "rules"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "note": [
+        {
+            "tool_info": {
+                "name": "books",
+                "url": "/api/books",
+                "description": "Old books and notebooks with various notes.",
+                "parameter": "query",
+                "score": 5,
+                "matched_keywords": [
+                    "note"
+                ]
+            },
+            "result": {
+                "code": 220,
+                "message": "No notes matched your query.",
+                "query": "Skolwin",
+                "search_mode": "full_text",
+                "returned": 0,
+                "notes": []
+            }
+        }
+    ],
+    "book": [
+        {
+            "tool_info": {
+                "name": "books",
+                "url": "/api/books",
+                "description": "Old books and notebooks with various notes.",
+                "parameter": "query",
+                "score": 5,
+                "matched_keywords": [
+                    "book"
+                ]
+            },
+            "result": {
+                "code": 220,
+                "message": "No notes matched your query.",
+                "query": "Skolwin",
+                "search_mode": "full_text",
+                "returned": 0,
+                "notes": []
+            }
+        }
+    ]
+}
