@@ -1,0 +1,58 @@
+2026-04-01 20:10:40,632 - Orchestrator: Starting the Windpower Task (40s limit).
+2026-04-01 20:10:40,632 - PollingAgent: Started listening on getResult loop.
+2026-04-01 20:10:40,632 - ActionAgent: Sending -> start
+2026-04-01 20:10:40,695 - ActionAgent: Sync Response -> {
+    "code": 60,
+    "message": "Windpower session started.",
+    "sessionStart": "2026-04-01 20:10:38",
+    "sessionTimeout": 40
+}
+2026-04-01 20:10:40,695 - ActionAgent: Got sync response: {'code': 60, 'message': 'Windpower session started.', 'sessionStart': '2026-04-01 20:10:38', 'sessionTimeout': 40}
+2026-04-01 20:10:41,206 - Orchestrator: Firing data requests (weather, turbinecheck, powerplantcheck).
+2026-04-01 20:10:41,207 - ActionAgent: Sending -> get
+2026-04-01 20:10:41,207 - ActionAgent: Sending -> get
+2026-04-01 20:10:41,208 - ActionAgent: Sending -> get
+2026-04-01 20:10:41,227 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:41,254 - ActionAgent: Sync Response -> {
+    "code": 31,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:10:41,256 - ActionAgent: Sync Response -> {
+    "code": 41,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:10:41,263 - ActionAgent: Sync Response -> {
+    "code": 21,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:10:41,772 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:42,313 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:42,852 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:43,386 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:43,928 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:44,469 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:45,009 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:45,550 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:46,094 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:46,635 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:47,176 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:47,717 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:48,259 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:48,800 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:49,343 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:49,885 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:50,426 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:50,970 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "insufficient energy to start management systems", "sourceFunction": "powerplantcheck", "mode": "StandBy", "cooling": "within norm", "firmware": "operational", "powerDeficitKw": "4-5", "producedPowerKw": 0}
+2026-04-01 20:10:50,970 - PollingAgent: Caught Power Deficit Data.
+2026-04-01 20:10:51,509 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:52,048 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:52,592 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:53,130 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "Low battery level detected in turbine backup power system.", "sourceFunction": "turbinecheck", "status": "Turbine is operating correctly.", "bladePitchAngleDeg": 0, "battery": "low"}
+2026-04-01 20:10:53,130 - PollingAgent: Caught Turbine State Data.
+2026-04-01 20:10:53,669 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:54,213 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:54,750 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:55,291 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:55,831 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:10:56,279 - Orchestrator: Timed out waiting for Weather, State, and Deficit. Aborting.
+2026-04-01 20:10:56,279 - PollingAgent: Stopped.

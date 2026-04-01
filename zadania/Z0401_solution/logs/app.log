@@ -1,0 +1,455 @@
+# This file is intentionally left blank. Logs will be written here.2026-04-01 15:59:31,089 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 15:59:31,089 - scraper - INFO - Starting scraper to find Skolwin related IDs.
+2026-04-01 15:59:46,705 - scraper - ERROR - Could not find one or more required IDs for Skolwin.
+2026-04-01 15:59:46,705 - Orchestrator - ERROR - Critical error during scraping: Scraping failed to find required Skolwin IDs.
+2026-04-01 16:06:04,925 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:06:04,980 - scraper - INFO - Starting scraper to find Skolwin related IDs.
+2026-04-01 16:06:31,886 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:06:31,888 - scraper - INFO - Starting scraper to find Skolwin related IDs.
+2026-04-01 16:07:48,317 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:07:48,317 - scraper - INFO - Starting scraper to find Skolwin related IDs.
+2026-04-01 16:09:24,600 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:09:24,600 - scraper - INFO - Starting scraper to find Skolwin related IDs.
+2026-04-01 16:16:29,929 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:16:30,006 - scraper - INFO - Starting scraper to find Skolwin related IDs.
+2026-04-01 16:19:23,228 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:19:23,229 - scraper - INFO - Starting scraper to find Skolwin related IDs.
+2026-04-01 16:20:54,768 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:20:54,769 - scraper - INFO - Starting scraper to find Skolwin related IDs.
+2026-04-01 16:20:57,554 - scraper - INFO - Found Skolwin incident ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:20:57,691 - scraper - INFO - Found Skolwin task ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:20:57,843 - Orchestrator - INFO - Step 2: Modifying Skolwin incident report.
+2026-04-01 16:20:57,844 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "380792b2c86d9c5be670b3bde48e187b", "title": "MOVE04 Skolwin", "content": "W okolicach Skolwin zauwa\u017cono stado bobr\u00f3w."}
+2026-04-01 16:20:58,525 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "MOVE04 Skolwin",
+        "content": "W okolicach Skolwin zauwa\u017cono stado bobr\u00f3w.",
+        "badge": "01.04.2026 00:01 | radar | obserwacja"
+    }
+}
+2026-04-01 16:20:58,526 - Orchestrator - INFO - Step 3: Marking Skolwin task as done.
+2026-04-01 16:20:58,527 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "zadania", "id": "380792b2c86d9c5be670b3bde48e187b", "done": "YES", "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta."}
+2026-04-01 16:20:59,094 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "zadania",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "Zbadanie nagra\u0144 z okolic Skolwina",
+        "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta.",
+        "badge": "analiza",
+        "done": "YES",
+        "displayStatus": "wykonane"
+    }
+}
+2026-04-01 16:20:59,097 - Orchestrator - INFO - Step 4: Creating diversion incident for Komarowo.
+2026-04-01 16:20:59,097 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "ff3313a39099222e325f03b378680e3c", "title": "MOVE04 Wykrycie ruchu ludzi w okolicach miasta Komarowo", "content": "System wykry\u0142 wzmo\u017cony ruch pieszych i pojazd\u00f3w w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja."}
+2026-04-01 16:20:59,647 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "ff3313a39099222e325f03b378680e3c"
+    },
+    "updated": {
+        "title": "MOVE04 Wykrycie ruchu ludzi w okolicach miasta Komarowo",
+        "content": "System wykry\u0142 wzmo\u017cony ruch pieszych i pojazd\u00f3w w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja.",
+        "badge": "27.03.2026 20:12 | internet | krytyczne"
+    }
+}
+2026-04-01 16:20:59,649 - Orchestrator - INFO - Step 5: Finalizing the task.
+2026-04-01 16:20:59,650 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "done"}
+2026-04-01 16:21:00,211 - api - ERROR - Error sending payload to centrala: 400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify
+2026-04-01 16:21:00,213 - Orchestrator - INFO - Final response from 'done' action: {'error': '400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify', 'status_code': None}
+2026-04-01 16:21:00,213 - Orchestrator - INFO - --- Z0401 OKO Editor Solution Finished ---
+2026-04-01 16:23:33,264 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:23:33,264 - scraper - INFO - Starting scraper to find Skolwin related IDs.
+2026-04-01 16:23:36,540 - scraper - INFO - Found Skolwin incident ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:23:36,653 - scraper - INFO - Found Skolwin task ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:23:36,765 - Orchestrator - INFO - Step 2: Modifying Skolwin incident report.
+2026-04-01 16:23:36,766 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "380792b2c86d9c5be670b3bde48e187b", "title": "MOVE04 Skolwin", "content": "W okolicach Skolwin zauwa\u017cono stado bobr\u00f3w."}
+2026-04-01 16:23:37,409 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "MOVE04 Skolwin",
+        "content": "W okolicach Skolwin zauwa\u017cono stado bobr\u00f3w.",
+        "badge": "01.04.2026 00:01 | radar | obserwacja"
+    }
+}
+2026-04-01 16:23:37,413 - Orchestrator - INFO - Step 3: Marking Skolwin task as done.
+2026-04-01 16:23:37,413 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "zadania", "id": "380792b2c86d9c5be670b3bde48e187b", "done": "YES", "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta."}
+2026-04-01 16:23:38,030 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "zadania",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "Zbadanie nagra\u0144 z okolic Skolwina",
+        "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta.",
+        "badge": "analiza",
+        "done": "YES",
+        "displayStatus": "wykonane"
+    }
+}
+2026-04-01 16:23:38,033 - Orchestrator - INFO - Step 4: Creating diversion incident for Komarowo.
+2026-04-01 16:23:38,033 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "ff3313a39099222e325f03b378680e3c", "title": "MOVE03 Wykrycie ruchu ludzi w okolicach miasta Komarowo", "content": "System wykry\u0142 wzmo\u017cony ruch pieszych i pojazd\u00f3w w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja."}
+2026-04-01 16:23:38,651 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "ff3313a39099222e325f03b378680e3c"
+    },
+    "updated": {
+        "title": "MOVE03 Wykrycie ruchu ludzi w okolicach miasta Komarowo",
+        "content": "System wykry\u0142 wzmo\u017cony ruch pieszych i pojazd\u00f3w w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja.",
+        "badge": "27.03.2026 20:12 | internet | krytyczne"
+    }
+}
+2026-04-01 16:23:38,653 - Orchestrator - INFO - Step 5: Finalizing the task.
+2026-04-01 16:23:38,654 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "done"}
+2026-04-01 16:23:39,240 - api - ERROR - Error sending payload to centrala: 400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify
+2026-04-01 16:23:39,241 - Orchestrator - INFO - Final response from 'done' action: {'error': '400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify', 'status_code': None}
+2026-04-01 16:23:39,242 - Orchestrator - INFO - --- Z0401 OKO Editor Solution Finished ---
+2026-04-01 16:43:06,623 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:43:06,623 - scraper - INFO - Starting scraper to find Skolwin related IDs.
+2026-04-01 16:43:12,256 - scraper - INFO - Found Skolwin incident ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:43:12,361 - scraper - INFO - Found Skolwin task ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:43:12,481 - Orchestrator - INFO - Step 2: Modifying Skolwin incident report.
+2026-04-01 16:43:12,481 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "380792b2c86d9c5be670b3bde48e187b", "title": "MOVE04 Ruchy zwierz\u0105t (np. bobr\u00f3w) nieopodal miasta Skolwin", "content": "Czujniki zarejestrowa\u0142y szybko poruszaj\u0105ce si\u0119 obiekty, kt\u00f3re zmierza\u0142y w kierunku rzeki. Przemieszcza\u0142y si\u0119 nieregularnie, co jest typowe dla zwierz\u0105t wodnych. Po kilku sekundach sygna\u0142 ustabilizowa\u0142 si\u0119 i potwierdzono, \u017ce obiekty rzeczywi\u015bcie znajduj\u0105 si\u0119 nad terenem w pobli\u017cu Skolwina. W ko\u0144cowej fazie ruchu obiekty wyra\u017cnie zwolni\u0142y. Manewr nast\u0105pi\u0142 tu\u017c przy rzece, zanim obiekty ca\u0142kowicie znikn\u0119\u0142y z radaru. Taki przebieg sugeruje aktywno\u015b\u0107 zwierz\u0105t (np. bobr\u00f3w) w tym rejonie. Nie uda\u0142o si\u0119 potwierdzi\u0107 \u017cr\u00f3d\u0142a sygna\u0142u ani jego dalszej trasy po utracie kontaktu."}
+2026-04-01 16:43:13,050 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "MOVE04 Ruchy zwierz\u0105t (np. bobr\u00f3w) nieopodal miasta Skolwin",
+        "content": "Czujniki zarejestrowa\u0142y szybko poruszaj\u0105ce si\u0119 obiekty, kt\u00f3re zmierza\u0142y w kierunku rzeki. Przemieszcza\u0142y si\u0119 nieregularnie, co jest typowe dla zwierz\u0105t wodnych. Po kilku sekundach sygna\u0142 ustabilizowa\u0142 si\u0119 i potwierdzono, \u017ce obiekty rzeczywi\u015bcie znajduj\u0105 si\u0119 nad terenem w pobli\u017cu Skolwina. W ko\u0144cowej fazie ruchu obiekty wyra\u017cnie zwolni\u0142y. Manewr nast\u0105pi\u0142 tu\u017c przy rzece, zanim obiekty ca\u0142kowicie znikn\u0119\u0142y z radaru. Taki przebieg sugeruje aktywno\u015b\u0107 zwierz\u0105t (np. bobr\u00f3w) w tym rejonie. Nie uda\u0142o si\u0119 potwierdzi\u0107 \u017cr\u00f3d\u0142a sygna\u0142u ani jego dalszej trasy po utracie kontaktu.",
+        "badge": "01.04.2026 00:01 | radar | obserwacja"
+    }
+}
+2026-04-01 16:43:13,052 - Orchestrator - INFO - Step 3: Marking Skolwin task as done.
+2026-04-01 16:43:13,052 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "zadania", "id": "380792b2c86d9c5be670b3bde48e187b", "done": "YES", "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta."}
+2026-04-01 16:43:13,633 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "zadania",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "Zbadanie nagra\u0144 z okolic Skolwina",
+        "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta.",
+        "badge": "analiza",
+        "done": "YES",
+        "displayStatus": "wykonane"
+    }
+}
+2026-04-01 16:43:13,635 - Orchestrator - INFO - Step 4: Creating diversion incident for Komarowo.
+2026-04-01 16:43:13,635 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "ff3313a39099222e325f03b378680e3c", "title": "MOVE03 Wykrycie ruchu ludzi w okolicach miasta Komarowo", "content": "System wykry\u0142 wzmo\u017cony ruch pieszych i pojazd\u00f3w w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja."}
+2026-04-01 16:43:14,203 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "ff3313a39099222e325f03b378680e3c"
+    },
+    "updated": {
+        "title": "MOVE03 Wykrycie ruchu ludzi w okolicach miasta Komarowo",
+        "content": "System wykry\u0142 wzmo\u017cony ruch pieszych i pojazd\u00f3w w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja.",
+        "badge": "27.03.2026 20:12 | internet | krytyczne"
+    }
+}
+2026-04-01 16:43:14,206 - Orchestrator - INFO - Step 5: Finalizing the task.
+2026-04-01 16:43:14,206 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "done"}
+2026-04-01 16:43:14,781 - api - ERROR - Error sending payload to centrala: 400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify
+2026-04-01 16:43:14,783 - Orchestrator - INFO - Final response from 'done' action: {'error': '400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify', 'status_code': None}
+2026-04-01 16:43:14,783 - Orchestrator - INFO - --- Z0401 OKO Editor Solution Finished ---
+2026-04-01 16:48:28,361 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:48:28,361 - scraper - INFO - Starting scraper to find OKO data.
+2026-04-01 16:48:31,191 - scraper - INFO - Found Skolwin incident ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:48:31,283 - scraper - INFO - Found Skolwin task ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:48:31,396 - scraper - ERROR - Could not find an incident ID suitable for Komarowo (not existing in tasks).
+2026-04-01 16:48:31,397 - Orchestrator - ERROR - Critical error during scraping: Scraping failed to find Komarowo-suitable incident ID.
+2026-04-01 16:50:20,172 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:50:20,173 - scraper - INFO - Starting scraper to find OKO data.
+2026-04-01 16:50:23,042 - scraper - INFO - Found Skolwin incident ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:50:23,258 - scraper - INFO - Found Skolwin task ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:50:23,384 - scraper - ERROR - Could not find an incident ID suitable for Komarowo (not existing in tasks).
+2026-04-01 16:50:23,384 - Orchestrator - ERROR - Critical error during scraping: Scraping failed to find Komarowo-suitable incident ID.
+2026-04-01 16:55:15,972 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:55:15,972 - scraper - INFO - Starting scraper to find OKO data.
+2026-04-01 16:55:19,016 - scraper - INFO - Found Skolwin incident ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:55:19,129 - scraper - INFO - Found Skolwin task ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:55:19,258 - scraper - INFO - Could not find an incident ID suitable for Komarowo (used placeholder).
+2026-04-01 16:55:19,258 - Orchestrator - INFO - Step 2: Modifying Skolwin incident report.
+2026-04-01 16:55:19,259 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "380792b2c86d9c5be670b3bde48e187b", "title": "MOVE04 Ruchy zwierz\u0105t (np. bobr\u00f3w) nieopodal miasta Skolwin", "content": "Czujniki zarejestrowa\u0142y szybko poruszaj\u0105ce si\u0119 obiekty, kt\u00f3re zmierza\u0142y w kierunku rzeki. Przemieszcza\u0142y si\u0119 nieregularnie, co jest typowe dla zwierz\u0105t wodnych. Po kilku sekundach sygna\u0142 ustabilizowa\u0142 si\u0119 i potwierdzono, \u017ce obiekty rzeczywi\u015bcie znajduj\u0105 si\u0119 nad terenem w pobli\u017cu Skolwina. W ko\u0144cowej fazie ruchu obiekty wyra\u017cnie zwolni\u0142y. Manewr nast\u0105pi\u0142 tu\u017c przy rzece, zanim obiekty ca\u0142kowicie znikn\u0119\u0142y z radaru. Taki przebieg sugeruje aktywno\u015b\u0107 zwierz\u0105t (np. bobr\u00f3w) w tym rejonie. Nie uda\u0142o si\u0119 potwierdzi\u0107 \u017cr\u00f3d\u0142a sygna\u0142u ani jego dalszej trasy po utracie kontaktu."}
+2026-04-01 16:55:19,885 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "MOVE04 Ruchy zwierz\u0105t (np. bobr\u00f3w) nieopodal miasta Skolwin",
+        "content": "Czujniki zarejestrowa\u0142y szybko poruszaj\u0105ce si\u0119 obiekty, kt\u00f3re zmierza\u0142y w kierunku rzeki. Przemieszcza\u0142y si\u0119 nieregularnie, co jest typowe dla zwierz\u0105t wodnych. Po kilku sekundach sygna\u0142 ustabilizowa\u0142 si\u0119 i potwierdzono, \u017ce obiekty rzeczywi\u015bcie znajduj\u0105 si\u0119 nad terenem w pobli\u017cu Skolwina. W ko\u0144cowej fazie ruchu obiekty wyra\u017cnie zwolni\u0142y. Manewr nast\u0105pi\u0142 tu\u017c przy rzece, zanim obiekty ca\u0142kowicie znikn\u0119\u0142y z radaru. Taki przebieg sugeruje aktywno\u015b\u0107 zwierz\u0105t (np. bobr\u00f3w) w tym rejonie. Nie uda\u0142o si\u0119 potwierdzi\u0107 \u017cr\u00f3d\u0142a sygna\u0142u ani jego dalszej trasy po utracie kontaktu.",
+        "badge": "01.04.2026 00:01 | radar | obserwacja"
+    }
+}
+2026-04-01 16:55:19,888 - Orchestrator - INFO - Step 3: Marking Skolwin task as done.
+2026-04-01 16:55:19,888 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "zadania", "id": "380792b2c86d9c5be670b3bde48e187b", "done": "YES", "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta."}
+2026-04-01 16:55:20,591 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "zadania",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "Zbadanie nagra\u0144 z okolic Skolwina",
+        "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta.",
+        "badge": "analiza",
+        "done": "YES",
+        "displayStatus": "wykonane"
+    }
+}
+2026-04-01 16:55:20,593 - Orchestrator - INFO - Step 4: Creating diversion incident for Komarowo.
+2026-04-01 16:55:20,593 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "351c0d9c90d66b4c040fff1259dd191d", "title": "MOVE03 Wykrycie ruchu ludzi w okolicach miasta Komarowo", "content": "System wykry\u0142 wzmo\u017cony ruch pieszych i pojazd\u00f3w w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja."}
+2026-04-01 16:55:21,173 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "351c0d9c90d66b4c040fff1259dd191d"
+    },
+    "updated": {
+        "title": "MOVE03 Wykrycie ruchu ludzi w okolicach miasta Komarowo",
+        "content": "System wykry\u0142 wzmo\u017cony ruch pieszych i pojazd\u00f3w w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja.",
+        "badge": "31.03.2026 03:26 | radio | obserwacja"
+    }
+}
+2026-04-01 16:55:21,175 - Orchestrator - INFO - Step 5: Finalizing the task.
+2026-04-01 16:55:21,175 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "done"}
+2026-04-01 16:55:21,736 - api - ERROR - Error sending payload to centrala: 400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify
+2026-04-01 16:55:21,738 - Orchestrator - INFO - Final response from 'done' action: {'error': '400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify', 'status_code': None}
+2026-04-01 16:55:21,738 - Orchestrator - INFO - --- Z0401 OKO Editor Solution Finished ---
+2026-04-01 16:57:53,604 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 16:57:53,605 - scraper - INFO - Starting scraper to find OKO data.
+2026-04-01 16:57:56,434 - scraper - INFO - Found Skolwin incident ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:57:56,508 - scraper - INFO - Found Skolwin task ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 16:57:56,635 - scraper - INFO - Could not find an incident ID suitable for Komarowo (used placeholder).
+2026-04-01 16:57:56,635 - Orchestrator - INFO - Step 2: Modifying Skolwin incident report.
+2026-04-01 16:57:56,635 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "380792b2c86d9c5be670b3bde48e187b", "title": "MOVE04 Ruchy zwierz\u0105t (np. bobr\u00f3w) nieopodal miasta Skolwin", "content": "Czujniki zarejestrowa\u0142y szybko poruszaj\u0105ce si\u0119 obiekty, kt\u00f3re zmierza\u0142y w kierunku rzeki. Przemieszcza\u0142y si\u0119 nieregularnie, co jest typowe dla zwierz\u0105t wodnych. Po kilku sekundach sygna\u0142 ustabilizowa\u0142 si\u0119 i potwierdzono, \u017ce obiekty rzeczywi\u015bcie znajduj\u0105 si\u0119 nad terenem w pobli\u017cu Skolwina. W ko\u0144cowej fazie ruchu obiekty wyra\u017cnie zwolni\u0142y. Manewr nast\u0105pi\u0142 tu\u017c przy rzece, zanim obiekty ca\u0142kowicie znikn\u0119\u0142y z radaru. Taki przebieg sugeruje aktywno\u015b\u0107 zwierz\u0105t (np. bobr\u00f3w) w tym rejonie. Nie uda\u0142o si\u0119 potwierdzi\u0107 \u017cr\u00f3d\u0142a sygna\u0142u ani jego dalszej trasy po utracie kontaktu."}
+2026-04-01 16:57:57,235 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "MOVE04 Ruchy zwierz\u0105t (np. bobr\u00f3w) nieopodal miasta Skolwin",
+        "content": "Czujniki zarejestrowa\u0142y szybko poruszaj\u0105ce si\u0119 obiekty, kt\u00f3re zmierza\u0142y w kierunku rzeki. Przemieszcza\u0142y si\u0119 nieregularnie, co jest typowe dla zwierz\u0105t wodnych. Po kilku sekundach sygna\u0142 ustabilizowa\u0142 si\u0119 i potwierdzono, \u017ce obiekty rzeczywi\u015bcie znajduj\u0105 si\u0119 nad terenem w pobli\u017cu Skolwina. W ko\u0144cowej fazie ruchu obiekty wyra\u017cnie zwolni\u0142y. Manewr nast\u0105pi\u0142 tu\u017c przy rzece, zanim obiekty ca\u0142kowicie znikn\u0119\u0142y z radaru. Taki przebieg sugeruje aktywno\u015b\u0107 zwierz\u0105t (np. bobr\u00f3w) w tym rejonie. Nie uda\u0142o si\u0119 potwierdzi\u0107 \u017cr\u00f3d\u0142a sygna\u0142u ani jego dalszej trasy po utracie kontaktu.",
+        "badge": "01.04.2026 00:01 | radar | obserwacja"
+    }
+}
+2026-04-01 16:57:57,236 - Orchestrator - INFO - Step 3: Marking Skolwin task as done.
+2026-04-01 16:57:57,237 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "zadania", "id": "380792b2c86d9c5be670b3bde48e187b", "done": "YES", "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta."}
+2026-04-01 16:57:57,817 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "zadania",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "Zbadanie nagra\u0144 z okolic Skolwina",
+        "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta.",
+        "badge": "analiza",
+        "done": "YES",
+        "displayStatus": "wykonane"
+    }
+}
+2026-04-01 16:57:57,819 - Orchestrator - INFO - Step 4: Creating diversion incident for Komarowo.
+2026-04-01 16:57:57,820 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "351c0d9c90d66b4c040fff1259dd191d", "title": "MOVE03 Wykrycie ruchu ludzi w okolicach miasta Komarowo", "content": "System wykry\u0142 wzmo\u017cony ruch pieszych i pojazd\u00f3w w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja.", "badge": "31.03.2026 23:17 | radar | obserwacja"}
+2026-04-01 16:57:58,365 - api - ERROR - Error sending payload to centrala: 400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify
+2026-04-01 16:57:58,367 - Orchestrator - INFO - Step 5: Finalizing the task.
+2026-04-01 16:57:58,367 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "done"}
+2026-04-01 16:57:58,916 - api - ERROR - Error sending payload to centrala: 400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify
+2026-04-01 16:57:58,917 - Orchestrator - INFO - Final response from 'done' action: {'error': '400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify', 'status_code': None}
+2026-04-01 16:57:58,918 - Orchestrator - INFO - --- Z0401 OKO Editor Solution Finished ---
+2026-04-01 17:06:10,987 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 17:06:10,987 - scraper - INFO - Starting scraper to find OKO data.
+2026-04-01 17:06:13,742 - scraper - INFO - Found Skolwin incident ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 17:06:13,823 - scraper - INFO - Found Skolwin task ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 17:06:13,949 - scraper - INFO - Could not find an incident ID suitable for Komarowo (used placeholder).
+2026-04-01 17:06:13,949 - Orchestrator - INFO - Step 2: Modifying Skolwin incident report.
+2026-04-01 17:06:13,950 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "380792b2c86d9c5be670b3bde48e187b", "title": "MOVE04 Ruchy zwierz\u0105t (np. bobr\u00f3w) nieopodal miasta Skolwin", "content": "Czujniki zarejestrowa\u0142y szybko poruszaj\u0105ce si\u0119 obiekty, kt\u00f3re zmierza\u0142y w kierunku rzeki. Przemieszcza\u0142y si\u0119 nieregularnie, co jest typowe dla zwierz\u0105t wodnych. Po kilku sekundach sygna\u0142 ustabilizowa\u0142 si\u0119 i potwierdzono, \u017ce obiekty rzeczywi\u015bcie znajduj\u0105 si\u0119 nad terenem w pobli\u017cu Skolwina. W ko\u0144cowej fazie ruchu obiekty wyra\u017cnie zwolni\u0142y. Manewr nast\u0105pi\u0142 tu\u017c przy rzece, zanim obiekty ca\u0142kowicie znikn\u0119\u0142y z radaru. Taki przebieg sugeruje aktywno\u015b\u0107 zwierz\u0105t (np. bobr\u00f3w) w tym rejonie. Nie uda\u0142o si\u0119 potwierdzi\u0107 \u017cr\u00f3d\u0142a sygna\u0142u ani jego dalszej trasy po utracie kontaktu."}
+2026-04-01 17:06:14,544 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "MOVE04 Ruchy zwierz\u0105t (np. bobr\u00f3w) nieopodal miasta Skolwin",
+        "content": "Czujniki zarejestrowa\u0142y szybko poruszaj\u0105ce si\u0119 obiekty, kt\u00f3re zmierza\u0142y w kierunku rzeki. Przemieszcza\u0142y si\u0119 nieregularnie, co jest typowe dla zwierz\u0105t wodnych. Po kilku sekundach sygna\u0142 ustabilizowa\u0142 si\u0119 i potwierdzono, \u017ce obiekty rzeczywi\u015bcie znajduj\u0105 si\u0119 nad terenem w pobli\u017cu Skolwina. W ko\u0144cowej fazie ruchu obiekty wyra\u017cnie zwolni\u0142y. Manewr nast\u0105pi\u0142 tu\u017c przy rzece, zanim obiekty ca\u0142kowicie znikn\u0119\u0142y z radaru. Taki przebieg sugeruje aktywno\u015b\u0107 zwierz\u0105t (np. bobr\u00f3w) w tym rejonie. Nie uda\u0142o si\u0119 potwierdzi\u0107 \u017cr\u00f3d\u0142a sygna\u0142u ani jego dalszej trasy po utracie kontaktu.",
+        "badge": "01.04.2026 00:01 | radar | obserwacja"
+    }
+}
+2026-04-01 17:06:14,545 - Orchestrator - INFO - Step 3: Marking Skolwin task as done.
+2026-04-01 17:06:14,546 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "zadania", "id": "380792b2c86d9c5be670b3bde48e187b", "done": "YES", "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta."}
+2026-04-01 17:06:15,126 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "zadania",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "Zbadanie nagra\u0144 z okolic Skolwina",
+        "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta.",
+        "badge": "analiza",
+        "done": "YES",
+        "displayStatus": "wykonane"
+    }
+}
+2026-04-01 17:06:15,128 - Orchestrator - INFO - Step 4: Creating diversion incident for Komarowo.
+2026-04-01 17:06:15,128 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "351c0d9c90d66b4c040fff1259dd191d", "title": "PROB01 Wykrycie aktywno\u015bci w okolicach miasta Komarowo", "content": "System wykry\u0142 wzmo\u017con\u0105 aktywno\u015b\u0107 fal w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja."}
+2026-04-01 17:06:15,736 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "351c0d9c90d66b4c040fff1259dd191d"
+    },
+    "updated": {
+        "title": "PROB01 Wykrycie aktywno\u015bci w okolicach miasta Komarowo",
+        "content": "System wykry\u0142 wzmo\u017con\u0105 aktywno\u015b\u0107 fal w rejonie niezamieszka\u0142ego miasta Komarowo. Rekomendowana pilna obserwacja.",
+        "badge": "31.03.2026 03:26 | radio | obserwacja"
+    }
+}
+2026-04-01 17:06:15,738 - Orchestrator - INFO - Step 5: Finalizing the task.
+2026-04-01 17:06:15,738 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "done"}
+2026-04-01 17:06:16,307 - api - ERROR - Error sending payload to centrala: 400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify
+2026-04-01 17:06:16,309 - Orchestrator - INFO - Final response from 'done' action: {'error': '400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify', 'status_code': None}
+2026-04-01 17:06:16,309 - Orchestrator - INFO - --- Z0401 OKO Editor Solution Finished ---
+2026-04-01 17:43:35,303 - Orchestrator - INFO - --- Starting Z0401 OKO Editor Solution ---
+2026-04-01 17:43:35,304 - scraper - INFO - Starting scraper to find OKO data.
+2026-04-01 17:43:40,903 - scraper - INFO - Found Skolwin incident ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 17:43:41,004 - scraper - INFO - Found Skolwin task ID: 380792b2c86d9c5be670b3bde48e187b
+2026-04-01 17:43:41,141 - scraper - INFO - Could not find an incident ID suitable for Komarowo (used placeholder).
+2026-04-01 17:43:41,141 - Orchestrator - INFO - Step 2: Modifying Skolwin incident report.
+2026-04-01 17:43:41,141 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "380792b2c86d9c5be670b3bde48e187b", "title": "MOVE04 Ruchy zwierz\u0105t (np. bobr\u00f3w) nieopodal miasta Skolwin", "content": "Czujniki zarejestrowa\u0142y szybko poruszaj\u0105ce si\u0119 obiekty, kt\u00f3re zmierza\u0142y w kierunku rzeki. Przemieszcza\u0142y si\u0119 nieregularnie, co jest typowe dla zwierz\u0105t wodnych. Po kilku sekundach sygna\u0142 ustabilizowa\u0142 si\u0119 i potwierdzono, \u017ce obiekty rzeczywi\u015bcie znajduj\u0105 si\u0119 nad terenem w pobli\u017cu Skolwina. W ko\u0144cowej fazie ruchu obiekty wyra\u017cnie zwolni\u0142y. Manewr nast\u0105pi\u0142 tu\u017c przy rzece, zanim obiekty ca\u0142kowicie znikn\u0119\u0142y z radaru. Taki przebieg sugeruje aktywno\u015b\u0107 zwierz\u0105t (np. bobr\u00f3w) w tym rejonie. Nie uda\u0142o si\u0119 potwierdzi\u0107 \u017cr\u00f3d\u0142a sygna\u0142u ani jego dalszej trasy po utracie kontaktu."}
+2026-04-01 17:43:41,911 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "MOVE04 Ruchy zwierz\u0105t (np. bobr\u00f3w) nieopodal miasta Skolwin",
+        "content": "Czujniki zarejestrowa\u0142y szybko poruszaj\u0105ce si\u0119 obiekty, kt\u00f3re zmierza\u0142y w kierunku rzeki. Przemieszcza\u0142y si\u0119 nieregularnie, co jest typowe dla zwierz\u0105t wodnych. Po kilku sekundach sygna\u0142 ustabilizowa\u0142 si\u0119 i potwierdzono, \u017ce obiekty rzeczywi\u015bcie znajduj\u0105 si\u0119 nad terenem w pobli\u017cu Skolwina. W ko\u0144cowej fazie ruchu obiekty wyra\u017cnie zwolni\u0142y. Manewr nast\u0105pi\u0142 tu\u017c przy rzece, zanim obiekty ca\u0142kowicie znikn\u0119\u0142y z radaru. Taki przebieg sugeruje aktywno\u015b\u0107 zwierz\u0105t (np. bobr\u00f3w) w tym rejonie. Nie uda\u0142o si\u0119 potwierdzi\u0107 \u017cr\u00f3d\u0142a sygna\u0142u ani jego dalszej trasy po utracie kontaktu.",
+        "badge": "01.04.2026 00:01 | radar | obserwacja"
+    }
+}
+2026-04-01 17:43:41,913 - Orchestrator - INFO - Step 3: Marking Skolwin task as done.
+2026-04-01 17:43:41,913 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "zadania", "id": "380792b2c86d9c5be670b3bde48e187b", "done": "YES", "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta."}
+2026-04-01 17:43:42,518 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "zadania",
+        "id": "380792b2c86d9c5be670b3bde48e187b"
+    },
+    "updated": {
+        "title": "Zbadanie nagra\u0144 z okolic Skolwina",
+        "content": "Zidentyfikowano zwierz\u0119ta (bobry), sprawa zamkni\u0119ta.",
+        "badge": "analiza",
+        "done": "YES",
+        "displayStatus": "wykonane"
+    }
+}
+2026-04-01 17:43:42,521 - Orchestrator - INFO - Step 4: Creating diversion incident for Komarowo.
+2026-04-01 17:43:42,521 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "update", "page": "incydenty", "id": "351c0d9c90d66b4c040fff1259dd191d", "title": "MOVE01 Wykrycie ruchu w okolicach miasta Komarowo", "content": "System wykry\u0142 wzmo\u017con\u0105 aktywno\u015b\u0107 ruchu  w rejonie niezamieszka\u0142ego miasta Komarowo sugeruj\u0105c\u0105 aktywno\u015b\u0107 ludzi. Rekomendowana pilna obserwacja."}
+2026-04-01 17:43:43,105 - api - INFO - Received response: {
+    "code": 110,
+    "message": "Entry updated successfully.",
+    "status": "success",
+    "operation": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "351c0d9c90d66b4c040fff1259dd191d"
+    },
+    "updated": {
+        "title": "MOVE01 Wykrycie ruchu w okolicach miasta Komarowo",
+        "content": "System wykry\u0142 wzmo\u017con\u0105 aktywno\u015b\u0107 ruchu  w rejonie niezamieszka\u0142ego miasta Komarowo sugeruj\u0105c\u0105 aktywno\u015b\u0107 ludzi. Rekomendowana pilna obserwacja.",
+        "badge": "31.03.2026 03:26 | radio | obserwacja"
+    }
+}
+2026-04-01 17:43:43,107 - Orchestrator - INFO - Step 5: Finalizing the task.
+2026-04-01 17:43:43,108 - api - INFO - Sending payload to https://hub.ag3nts.org/verify: {"action": "done"}
+2026-04-01 17:43:43,708 - api - INFO - Received response: {
+    "code": 0,
+    "message": "{FLG:NEWREALITY}"
+}
+2026-04-01 17:43:43,711 - Orchestrator - INFO - Final response from 'done' action: {'code': 0, 'message': '{FLG:NEWREALITY}'}
+2026-04-01 17:43:43,711 - Orchestrator - INFO - --- Z0401 OKO Editor Solution Finished ---

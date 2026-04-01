@@ -1,0 +1,34 @@
+2026-04-01 20:34:59,075 - Base data: {'startDate': '2026-04-02', 'startHour': '18:00:00', 'windMs': 25.0, 'pitchAngle': 90}
+2026-04-01 20:34:59,075 - Mirrored data for unlockCodeGenerator: {'startDate': '20-40-6202', 'startHour': '00:00:81', 'windMs': '0.52', 'pitchAngle': '09'}
+2026-04-01 20:34:59,232 - Request for mirrored unlock code has been queued.
+2026-04-01 20:35:00,268 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:01,317 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:02,352 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:03,398 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:04,441 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:05,488 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:06,536 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:07,582 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:08,665 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:09,705 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:10,787 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:11,833 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:12,883 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:13,962 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:15,011 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:16,077 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:17,123 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:18,205 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:19,244 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:20,288 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:21,376 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:22,410 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:23,456 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:24,496 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:25,550 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:26,599 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:27,669 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:28,711 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:29,756 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:30,799 - Polling... got: {'code': 11, 'message': 'No completed queued response is available yet.'}
+2026-04-01 20:35:30,800 - Failed to retrieve mirrored unlock code.

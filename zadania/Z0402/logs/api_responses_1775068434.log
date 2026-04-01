@@ -1,0 +1,4 @@
+2026-04-01 20:33:54,908 - Base data: {'startDate': '2026-04-02', 'startHour': '18:00:00', 'windMs': 25.0, 'pitchAngle': 90}
+2026-04-01 20:33:54,909 - Mirrored data for unlockCodeGenerator: {'startDate': '20-40-6202', 'startHour': '00:00:81', 'windMs': '0.52', 'pitchAngle': 90}
+2026-04-01 20:33:55,018 - Request for mirrored unlock code has been queued.
+2026-04-01 20:34:15,996 - Failed to retrieve mirrored unlock code.

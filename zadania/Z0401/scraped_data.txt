@@ -1,0 +1,64 @@
+
+=== DANE ZEBRANE Z PORTALU WEB ===
+INCIDENTS:
+{
+  "380792b2c86d9c5be670b3bde48e187b": {
+    "title": "MOVE03 Trudne do klasyfikacji ruchy nieopodal miasta Skolwin",
+    "content": "Czujniki zarejestrowały szybko poruszający się obiekt, który zmierzał w kierunku rzeki. Przemieszczał się nieregularnie i chwilami osiągał prędkość trudną do pogodzenia z ruchem cywilnym. Początkowo s...",
+    "badge": "01.04.2026 00:01 | radar | obserwacja"
+  },
+  "ff3313a39099222e325f03b378680e3c": {
+    "title": "PROB02 Przechwycenie transmisji internetowej do miasta Domatowo",
+    "content": "Przechwycono transmisję internetową z niewiadomego źródła skierowaną do miasta Domatowo. Analiza treści wskazuje, że nadawca próbował zdobyć informacje techniczne związane z lokalną infrastrukturą ora...",
+    "badge": "27.03.2026 20:12 | internet | krytyczne"
+  },
+  "bcdfc393f811cc05d3a189c679f50659": {
+    "title": "PROB01 Podejrzana retransmisja na paśmie VHF",
+    "content": "Węzeł nasłuchowy w sektorze północnym zarejestrował serię krótkich ramek nadawanych co 43 sekundy. Treść wskazuje na próbę testowania zasięgu poza standardowym oknem emisji.",
+    "badge": "31.03.2026 06:14 | radio | wysoki priorytet"
+  },
+  "8875c5a166cb04ea6fedde59b0ad6501": {
+    "title": "PROB02 Kanał IRC zniknął po zmianie domeny pośredniej",
+    "content": "Monitorowane konto operacyjne utraciło połączenie z kanałem po przekierowaniu ruchu przez nowy host. Część logów sugeruje ręczne wygaszanie śladu po stronie nadawcy.",
+    "badge": "31.03.2026 05:41 | internet | analiza"
+  },
+  "8b04cb375286948cbe22b446b81921ba": {
+    "title": "PROB02 Pakiety telemetryczne z podsieci 185.17.x.x",
+    "content": "Czujnik korelacyjny połączył trzy źródła ruchu z tym samym identyfikatorem sesji. Transfer odbywał się falami po kilkanaście sekund, zawsze po aktywacji skanera radiowego.",
+    "badge": "31.03.2026 04:58 | internet + radio | pilne"
+  },
+  "351c0d9c90d66b4c040fff1259dd191d": {
+    "title": "PROB01 Nieautoryzowana emisja próbna w sieci PMR",
+    "content": "Wykryto ciąg komunikatów imitujących meldunki techniczne. Zawartość nie pasuje do żadnego aktywnego planu pracy i została skierowana do ręcznej weryfikacji.",
+    "badge": "31.03.2026 03:26 | radio | obserwacja"
+  }
+}
+
+TASKS:
+{
+  "380792b2c86d9c5be670b3bde48e187b": {
+    "title": "Zbadanie nagrań z okolic Skolwina",
+    "status": "niewykonane"
+  },
+  "ff3313a39099222e325f03b378680e3c": {
+    "title": "Porównać logi z kanału R-19 i IRC-DELTA",
+    "status": "niewykonane"
+  },
+  "bcdfc393f811cc05d3a189c679f50659": {
+    "title": "Zweryfikować nowe identyfikatory stacji mobilnych",
+    "status": "wykonane"
+  },
+  "8875c5a166cb04ea6fedde59b0ad6501": {
+    "title": "Przejrzeć kolejkę ręcznych transkrypcji",
+    "status": "niewykonane"
+  },
+  "8b04cb375286948cbe22b446b81921ba": {
+    "title": "Potwierdzić aktywność operatorów dyżurnych",
+    "status": "wykonane"
+  },
+  "351c0d9c90d66b4c040fff1259dd191d": {
+    "title": "usunąć konta zwolnionych pracowników",
+    "status": "wykonane"
+  }
+}
+==================================

@@ -1,0 +1,17 @@
+2026-04-01 20:01:15,616 - CENTRALA_API_KEY not found in environment. Testing with a dummy key for logging validation.
+2026-04-01 20:01:15,616 - Orchestrator: Starting the Windpower Task (40s limit).
+2026-04-01 20:01:15,616 - PollingAgent: Started listening on getResult loop.
+2026-04-01 20:01:15,617 - ActionAgent: Sending -> start
+2026-04-01 20:01:15,687 - ActionAgent: Error queuing start: 400 - {
+    "code": -4,
+    "message": "\"apikey\" field has an invalid format.",
+    "error": "\"apikey\" field has an invalid format."
+}
+2026-04-01 20:01:15,792 - ActionAgent: Sending -> help
+2026-04-01 20:01:15,841 - ActionAgent: Error queuing help: 400 - {
+    "code": -4,
+    "message": "\"apikey\" field has an invalid format.",
+    "error": "\"apikey\" field has an invalid format."
+}
+2026-04-01 20:01:20,854 - Orchestrator: Timed out waiting for 'help' response. Aborting.
+2026-04-01 20:01:20,854 - PollingAgent: Stopped.

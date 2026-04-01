@@ -1,0 +1,152 @@
+2026-04-01 20:11:29,714 - Orchestrator: Starting the Windpower Task (40s limit).
+2026-04-01 20:11:29,714 - PollingAgent: Started listening on getResult loop.
+2026-04-01 20:11:29,714 - ActionAgent: Sending -> start
+2026-04-01 20:11:29,785 - ActionAgent: Sync Response -> {
+    "code": 60,
+    "message": "Windpower session started.",
+    "sessionStart": "2026-04-01 20:11:28",
+    "sessionTimeout": 40
+}
+2026-04-01 20:11:29,785 - ActionAgent: Got sync response: {'code': 60, 'message': 'Windpower session started.', 'sessionStart': '2026-04-01 20:11:28', 'sessionTimeout': 40}
+2026-04-01 20:11:30,299 - Orchestrator: Firing data requests (weather, turbinecheck, powerplantcheck).
+2026-04-01 20:11:30,300 - ActionAgent: Sending -> get
+2026-04-01 20:11:30,300 - ActionAgent: Sending -> get
+2026-04-01 20:11:30,301 - ActionAgent: Sending -> get
+2026-04-01 20:11:30,326 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:30,352 - ActionAgent: Sync Response -> {
+    "code": 41,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:11:30,353 - ActionAgent: Sync Response -> {
+    "code": 21,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:11:30,360 - ActionAgent: Sync Response -> {
+    "code": 31,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:11:30,872 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:31,412 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:31,953 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:32,494 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:33,033 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:33,582 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:34,116 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:34,652 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:35,188 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:35,723 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:36,264 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:36,806 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:37,345 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:37,880 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:38,414 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:38,950 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:39,486 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:40,020 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "insufficient energy to start management systems", "sourceFunction": "powerplantcheck", "mode": "StandBy", "cooling": "within norm", "firmware": "operational", "powerDeficitKw": "2-3", "producedPowerKw": 0}
+2026-04-01 20:11:40,020 - PollingAgent: Caught Power Deficit Data.
+2026-04-01 20:11:40,557 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:41,095 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:41,628 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:42,166 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "Low battery level detected in turbine backup power system.", "sourceFunction": "turbinecheck", "status": "Turbine is operating correctly.", "bladePitchAngleDeg": 0, "battery": "low"}
+2026-04-01 20:11:42,166 - PollingAgent: Caught Turbine State Data.
+2026-04-01 20:11:42,702 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:43,250 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:43,810 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:44,355 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:44,889 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:45,437 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:45,980 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:46,554 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:47,092 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:47,629 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:48,169 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:48,709 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:49,247 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:49,790 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:50,323 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:50,862 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:51,423 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:51,964 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:52,505 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:53,051 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:53,590 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:54,148 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "Queued response retrieved.", "sourceFunction": "weather", "intervalHours": 2, "forecastDays": 7, "unit": {"windMs": "m/s", "precipitationMm": "mm", "temperatureC": "C"}, "forecast": [{"timestamp": "2026-04-01 00:00:00", "windMs": 3.9, "precipitationMm": 0, "temperatureC": 26.6}, {"timestamp": "2026-04-01 02:00:00", "windMs": 3.1, "precipitationMm": 0, "temperatureC": 26.6}, {"timestamp": "2026-04-01 04:00:00", "windMs": 3.6, "precipitationMm": 0, "temperatureC": 27.6}, {"timestamp": "2026-04-01 06:00:00", "windMs": 3.6, "precipitationMm": 0, "temperatureC": 27}, {"timestamp": "2026-04-01 08:00:00", "windMs": 3, "precipitationMm": 0, "temperatureC": 27.5}, {"timestamp": "2026-04-01 10:00:00", "windMs": 3.2, "precipitationMm": 0, "temperatureC": 29.4}, {"timestamp": "2026-04-01 12:00:00", "windMs": 2.8, "precipitationMm": 0, "temperatureC": 29}, {"timestamp": "2026-04-01 14:00:00", "windMs": 3.1, "precipitationMm": 0, "temperatureC": 29.8}, {"timestamp": "2026-04-01 16:00:00", "windMs": 3.9, "precipitationMm": 0, "temperatureC": 30.7}, {"timestamp": "2026-04-01 18:00:00", "windMs": 3.4, "precipitationMm": 0, "temperatureC": 30.6}, {"timestamp": "2026-04-01 20:00:00", "windMs": 3.7, "precipitationMm": 0, "temperatureC": 29.5}, {"timestamp": "2026-04-01 22:00:00", "windMs": 3.4, "precipitationMm": 0, "temperatureC": 29.8}, {"timestamp": "2026-04-02 00:00:00", "windMs": 2.7, "precipitationMm": 0, "temperatureC": 29.9}, {"timestamp": "2026-04-02 02:00:00", "windMs": 2.9, "precipitationMm": 0, "temperatureC": 28.7}, {"timestamp": "2026-04-02 04:00:00", "windMs": 2.1, "precipitationMm": 0, "temperatureC": 27.8}, {"timestamp": "2026-04-02 06:00:00", "windMs": 2.8, "precipitationMm": 0, "temperatureC": 28.2}, {"timestamp": "2026-04-02 08:00:00", "windMs": 2.5, "precipitationMm": 0, "temperatureC": 27.2}, {"timestamp": "2026-04-02 10:00:00", "windMs": 2.6, "precipitationMm": 0, "temperatureC": 27.2}, {"timestamp": "2026-04-02 12:00:00", "windMs": 2.5, "precipitationMm": 0, "temperatureC": 29.1}, {"timestamp": "2026-04-02 14:00:00", "windMs": 2.6, "precipitationMm": 0, "temperatureC": 30.4}, {"timestamp": "2026-04-02 16:00:00", "windMs": 3.1, "precipitationMm": 0, "temperatureC": 30.7}, {"timestamp": "2026-04-02 18:00:00", "windMs": 25, "precipitationMm": 0, "temperatureC": 29.5}, {"timestamp": "2026-04-02 20:00:00", "windMs": 4.9, "precipitationMm": 0, "temperatureC": 28.5}, {"timestamp": "2026-04-02 22:00:00", "windMs": 3.9, "precipitationMm": 0, "temperatureC": 28}, {"timestamp": "2026-04-03 00:00:00", "windMs": 3.8, "precipitationMm": 0, "temperatureC": 27}, {"timestamp": "2026-04-03 02:00:00", "windMs": 2.6, "precipitationMm": 0, "temperatureC": 26.5}, {"timestamp": "2026-04-03 04:00:00", "windMs": 2.8, "precipitationMm": 0.2, "temperatureC": 26.9}, {"timestamp": "2026-04-03 06:00:00", "windMs": 2.1, "precipitationMm": 0.2, "temperatureC": 27.4}, {"timestamp": "2026-04-03 08:00:00", "windMs": 2.7, "precipitationMm": 0, "temperatureC": 26.5}, {"timestamp": "2026-04-03 10:00:00", "windMs": 3, "precipitationMm": 0, "temperatureC": 27.1}, {"timestamp": "2026-04-03 12:00:00", "windMs": 2.8, "precipitationMm": 0, "temperatureC": 28.5}, {"timestamp": "2026-04-03 14:00:00", "windMs": 2.4, "precipitationMm": 0, "temperatureC": 29.3}, {"timestamp": "2026-04-03 16:00:00", "windMs": 2.2, "precipitationMm": 0, "temperatureC": 30.1}, {"timestamp": "2026-04-03 18:00:00", "windMs": 2.9, "precipitationMm": 0, "temperatureC": 29.8}, {"timestamp": "2026-04-03 20:00:00", "windMs": 3.5, "precipitationMm": 0, "temperatureC": 29.9}, {"timestamp": "2026-04-03 22:00:00", "windMs": 3.3, "precipitationMm": 0, "temperatureC": 29.9}, {"timestamp": "2026-04-04 00:00:00", "windMs": 2.5, "precipitationMm": 0, "temperatureC": 29}, {"timestamp": "2026-04-04 02:00:00", "windMs": 2.5, "precipitationMm": 0, "temperatureC": 28.1}, {"timestamp": "2026-04-04 04:00:00", "windMs": 3, "precipitationMm": 0, "temperatureC": 26.7}, {"timestamp": "2026-04-04 06:00:00", "windMs": 3.2, "precipitationMm": 0, "temperatureC": 26.6}, {"timestamp": "2026-04-04 08:00:00", "windMs": 3.2, "precipitationMm": 0, "temperatureC": 27.2}, {"timestamp": "2026-04-04 10:00:00", "windMs": 2.7, "precipitationMm": 0, "temperatureC": 28.4}, {"timestamp": "2026-04-04 12:00:00", "windMs": 3.1, "precipitationMm": 0, "temperatureC": 29.5}, {"timestamp": "2026-04-04 14:00:00", "windMs": 2.2, "precipitationMm": 0, "temperatureC": 30.2}, {"timestamp": "2026-04-04 16:00:00", "windMs": 2.1, "precipitationMm": 0, "temperatureC": 31.6}, {"timestamp": "2026-04-04 18:00:00", "windMs": 2.8, "precipitationMm": 0, "temperatureC": 30.1}, {"timestamp": "2026-04-04 20:00:00", "windMs": 4.9, "precipitationMm": 0, "temperatureC": 30.3}, {"timestamp": "2026-04-04 22:00:00", "windMs": 3.6, "precipitationMm": 0, "temperatureC": 30}, {"timestamp": "2026-04-05 00:00:00", "windMs": 3.3, "precipitationMm": 0, "temperatureC": 28.5}, {"timestamp": "2026-04-05 02:00:00", "windMs": 2.6, "precipitationMm": 0, "temperatureC": 28.2}, {"timestamp": "2026-04-05 04:00:00", "windMs": 2.7, "precipitationMm": 0, "temperatureC": 27.7}, {"timestamp": "2026-04-05 06:00:00", "windMs": 2.9, "precipitationMm": 0, "temperatureC": 27.2}, {"timestamp": "2026-04-05 08:00:00", "windMs": 2.6, "precipitationMm": 0, "temperatureC": 27.5}, {"timestamp": "2026-04-05 10:00:00", "windMs": 2.5, "precipitationMm": 0, "temperatureC": 29.3}, {"timestamp": "2026-04-05 12:00:00", "windMs": 3, "precipitationMm": 0, "temperatureC": 29.4}, {"timestamp": "2026-04-05 14:00:00", "windMs": 2.5, "precipitationMm": 0, "temperatureC": 28.7}, {"timestamp": "2026-04-05 16:00:00", "windMs": 2.8, "precipitationMm": 0, "temperatureC": 30.1}, {"timestamp": "2026-04-05 18:00:00", "windMs": 22, "precipitationMm": 0, "temperatureC": 29.7}, {"timestamp": "2026-04-05 20:00:00", "windMs": 3.9, "precipitationMm": 0, "temperatureC": 29.1}, {"timestamp": "2026-04-05 22:00:00", "windMs": 3.5, "precipitationMm": 0, "temperatureC": 27.8}, {"timestamp": "2026-04-06 00:00:00", "windMs": 3.2, "precipitationMm": 0, "temperatureC": 28.5}, {"timestamp": "2026-04-06 02:00:00", "windMs": 2.5, "precipitationMm": 0, "temperatureC": 28}, {"timestamp": "2026-04-06 04:00:00", "windMs": 2.3, "precipitationMm": 0, "temperatureC": 27.7}, {"timestamp": "2026-04-06 06:00:00", "windMs": 2.7, "precipitationMm": 0, "temperatureC": 27.3}, {"timestamp": "2026-04-06 08:00:00", "windMs": 2.6, "precipitationMm": 0, "temperatureC": 27.5}, {"timestamp": "2026-04-06 10:00:00", "windMs": 2.6, "precipitationMm": 0, "temperatureC": 27.6}, {"timestamp": "2026-04-06 12:00:00", "windMs": 3.2, "precipitationMm": 0, "temperatureC": 27.6}, {"timestamp": "2026-04-06 14:00:00", "windMs": 3, "precipitationMm": 0, "temperatureC": 27.8}, {"timestamp": "2026-04-06 16:00:00", "windMs": 3, "precipitationMm": 0, "temperatureC": 27.7}, {"timestamp": "2026-04-06 18:00:00", "windMs": 28, "precipitationMm": 0.2, "temperatureC": 27.6}, {"timestamp": "2026-04-06 20:00:00", "windMs": 3.9, "precipitationMm": 0, "temperatureC": 27.1}, {"timestamp": "2026-04-06 22:00:00", "windMs": 3.2, "precipitationMm": 0, "temperatureC": 26.1}, {"timestamp": "2026-04-07 00:00:00", "windMs": 2.6, "precipitationMm": 0, "temperatureC": 26.9}, {"timestamp": "2026-04-07 02:00:00", "windMs": 3.2, "precipitationMm": 0, "temperatureC": 26.3}, {"timestamp": "2026-04-07 04:00:00", "windMs": 3, "precipitationMm": 0, "temperatureC": 25.3}, {"timestamp": "2026-04-07 06:00:00", "windMs": 3.4, "precipitationMm": 0, "temperatureC": 25.5}, {"timestamp": "2026-04-07 08:00:00", "windMs": 3.4, "precipitationMm": 0, "temperatureC": 27.1}, {"timestamp": "2026-04-07 10:00:00", "windMs": 3, "precipitationMm": 0, "temperatureC": 27.1}, {"timestamp": "2026-04-07 12:00:00", "windMs": 2.8, "precipitationMm": 0, "temperatureC": 28.9}, {"timestamp": "2026-04-07 14:00:00", "windMs": 3.1, "precipitationMm": 0, "temperatureC": 30.7}, {"timestamp": "2026-04-07 16:00:00", "windMs": 3.7, "precipitationMm": 0, "temperatureC": 29.6}, {"timestamp": "2026-04-07 18:00:00", "windMs": 3.9, "precipitationMm": 0, "temperatureC": 28.7}, {"timestamp": "2026-04-07 20:00:00", "windMs": 3.9, "precipitationMm": 0, "temperatureC": 28.3}, {"timestamp": "2026-04-07 22:00:00", "windMs": 2.9, "precipitationMm": 0.4, "temperatureC": 26.7}]}
+2026-04-01 20:11:54,149 - PollingAgent: Caught Weather Data.
+2026-04-01 20:11:54,149 - PollingAgent: All necessary data gathered (Weather, State, Deficit). Signaling Orchestrator.
+2026-04-01 20:11:54,149 - Orchestrator: All raw data gathered. Triggering Intelligence Agent.
+2026-04-01 20:11:54,150 - IntelligenceAgent: Spinning up background thread for LLM calculation.
+2026-04-01 20:11:54,150 - IntelligenceAgent: Sending request to OpenRouter...
+2026-04-01 20:11:54,689 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:55,230 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:55,772 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:56,314 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:56,857 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:57,398 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:57,938 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:58,476 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:59,011 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:11:59,546 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:12:00,082 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:12:00,626 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:12:01,170 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:12:01,704 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:12:02,240 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:12:02,776 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:12:02,789 - IntelligenceAgent: Successfully drafted schedule with 7 steps.
+2026-04-01 20:12:02,789 - CryptographyAgent: Requesting unlock codes for 7 timestamps.
+2026-04-01 20:12:02,789 - ActionAgent: Sending -> unlockCodeGenerator
+2026-04-01 20:12:02,840 - ActionAgent: Sync Response -> {
+    "code": 14,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:12:02,841 - ActionAgent: Sending -> unlockCodeGenerator
+2026-04-01 20:12:02,891 - ActionAgent: Sync Response -> {
+    "code": 14,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:12:02,892 - ActionAgent: Sending -> unlockCodeGenerator
+2026-04-01 20:12:03,093 - ActionAgent: Sync Response -> {
+    "code": 14,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:12:03,094 - ActionAgent: Sending -> unlockCodeGenerator
+2026-04-01 20:12:03,146 - ActionAgent: Sync Response -> {
+    "code": 14,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:12:03,148 - ActionAgent: Sending -> unlockCodeGenerator
+2026-04-01 20:12:03,201 - ActionAgent: Sync Response -> {
+    "code": 14,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:12:03,202 - ActionAgent: Sending -> unlockCodeGenerator
+2026-04-01 20:12:03,253 - ActionAgent: Sync Response -> {
+    "code": 14,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:12:03,254 - ActionAgent: Sending -> unlockCodeGenerator
+2026-04-01 20:12:03,313 - ActionAgent: Sync Response -> {
+    "code": 14,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+}
+2026-04-01 20:12:03,313 - CryptographyAgent: All unlock code requests fired.
+2026-04-01 20:12:03,322 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:12:03,864 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:12:04,403 - PollingAgent: Received Raw JSON -> {"code": 11, "message": "No completed queued response is available yet."}
+2026-04-01 20:12:04,936 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "Queued response retrieved.", "sourceFunction": "unlockCodeGenerator", "unlockCode": "988afb792eb75298ae29c7c99932bc5c", "signedParams": {"startDate": "2026-04-02", "startHour": "18:00:00", "windMs": "25.0", "pitchAngle": "90.0"}}
+2026-04-01 20:12:04,936 - PollingAgent: Caught Unlock Code.
+2026-04-01 20:12:05,477 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "Queued response retrieved.", "sourceFunction": "unlockCodeGenerator", "unlockCode": "fa1b276cf5ef133c591a1ac826a76e02", "signedParams": {"startDate": "2026-04-02", "startHour": "19:00:00", "windMs": "25.0", "pitchAngle": "90.0"}}
+2026-04-01 20:12:05,477 - PollingAgent: Caught Unlock Code.
+2026-04-01 20:12:06,019 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "Queued response retrieved.", "sourceFunction": "unlockCodeGenerator", "unlockCode": "f8eae7a1f430803e115c135ea53ac975", "signedParams": {"startDate": "2026-04-05", "startHour": "18:00:00", "windMs": "22.0", "pitchAngle": "90.0"}}
+2026-04-01 20:12:06,019 - PollingAgent: Caught Unlock Code.
+2026-04-01 20:12:06,555 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "Queued response retrieved.", "sourceFunction": "unlockCodeGenerator", "unlockCode": "53bd656532ec8457ea6941a0807beb31", "signedParams": {"startDate": "2026-04-05", "startHour": "19:00:00", "windMs": "22.0", "pitchAngle": "90.0"}}
+2026-04-01 20:12:06,555 - PollingAgent: Caught Unlock Code.
+2026-04-01 20:12:07,095 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "Queued response retrieved.", "sourceFunction": "unlockCodeGenerator", "unlockCode": "978fdd57c78f7a97d6cee2e05f2c33ac", "signedParams": {"startDate": "2026-04-06", "startHour": "18:00:00", "windMs": "28.0", "pitchAngle": "90.0"}}
+2026-04-01 20:12:07,096 - PollingAgent: Caught Unlock Code.
+2026-04-01 20:12:07,636 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "Queued response retrieved.", "sourceFunction": "unlockCodeGenerator", "unlockCode": "5970431d30d1a85d0bc2ce8b809a7d81", "signedParams": {"startDate": "2026-04-06", "startHour": "19:00:00", "windMs": "28.0", "pitchAngle": "90.0"}}
+2026-04-01 20:12:07,636 - PollingAgent: Caught Unlock Code.
+2026-04-01 20:12:08,176 - PollingAgent: Received Raw JSON -> {"code": 12, "message": "Queued response retrieved.", "sourceFunction": "unlockCodeGenerator", "unlockCode": "bb92b369bbe02f3a58789e68c3ecd253", "signedParams": {"startDate": "2026-04-02", "startHour": "20:00:00", "windMs": "4.9", "pitchAngle": "45.0"}}
+2026-04-01 20:12:08,176 - PollingAgent: Caught Unlock Code.
+2026-04-01 20:12:08,177 - Orchestrator: All unlock codes gathered.
+2026-04-01 20:12:08,177 - Orchestrator: Final configs are empty. Aborting.
+2026-04-01 20:12:08,177 - PollingAgent: Stopped.
